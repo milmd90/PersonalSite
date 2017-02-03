@@ -1,13 +1,14 @@
-var React = require('react');
+import React, { Component } from 'react';
+import { Router, Route, Link, browserHistory } from 'react-router';
 
-var Section = React.createClass({
-    render: function() {
+class Section extends Component {
+    render() {
         return (
             <div className={this.props.className}>
                 Section
             </div>
         );
     }
-});
+};
 
-module.exports = Section;
+export default Section;

@@ -1,13 +1,14 @@
-var React = require('react');
+import React, { Component } from 'react';
+import { Router, Route, Link, browserHistory } from 'react-router';
 
-var Footer = React.createClass({
-    render: function () {
+class Footer extends Component {
+    render() {
         return (
             <div>
                 Footer
             </div>
         );
     }
-});
+};
 
-module.exports = Footer;
+export default Footer;

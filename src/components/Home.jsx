@@ -1,9 +1,10 @@
-var React = require('react');
+import React, { Component } from 'react';
+import { Router, Route, Link, browserHistory } from 'react-router';
 
-var Section = require('./Section.jsx');
+import Section from './Section';
 
-var Home = React.createClass({
-    render: function() {
+class Home extends Component {
+    render() {
         return (
             <div>
                 <div>Home</div>
@@ -13,6 +14,6 @@ var Home = React.createClass({
             </div>
         );
     }
-});
+};
 
-module.exports = Home;
+export default Home;

@@ -1,10 +1,10 @@
-var React = require('react');
+import React, { Component } from 'react';
 
-var Header = require('./Header.jsx');
-var Footer = require('./Footer.jsx');
+import Header from './Header';
+import Footer from './Footer';
 
-var Base = React.createClass({
-    render: function () {
+class Base extends Component {
+    render() {
         return (
             <div>
                 <Header/>
@@ -13,6 +13,6 @@ var Base = React.createClass({
             </div>
         );
     }
-});
+};
 
-module.exports = Base;
+export default Base;

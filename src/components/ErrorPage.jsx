@@ -1,13 +1,14 @@
-var React = require('react');
+import React, { Component } from 'react';
+import { Router, Route, Link, browserHistory } from 'react-router';
 
-var ErrorPage = React.createClass({
-    render: function() {
+class ErrorPage extends Component {
+    render() {
         return (
             <div>
                 <div>Error</div>
             </div>
         );
     }
-});
+};
 
-module.exports = ErrorPage;
+export default ErrorPage;

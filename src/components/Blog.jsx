@@ -1,18 +1,19 @@
-var React = require('react');
+import React, { Component } from 'react';
+import { Router, Route, Link, browserHistory } from 'react-router';
 
-var Section = require('./Section.jsx');
+import Section from './Section';
 
-var Blog = React.createClass({
-    render: function() {
+class Blog extends Component {
+    render() {
         return (
             <div>
                 <div>Blog</div>
-                {/* <Section className="bkg-blue"/>
+                <Section className="bkg-blue"/>
                 <Section className="bkg-orange"/>
-                <Section className="bkg-green"/> */}
+                <Section className="bkg-green"/>
             </div>
         );
     }
-});
+};
 
-module.exports = Blog;
+export default Blog;
