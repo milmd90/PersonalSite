@@ -3,12 +3,12 @@ import { Router, Route, Link, browserHistory } from 'react-router';
 
 import Section from './Section';
 
-class Home extends Component {
+class Music extends Component {
     render() {
         return (
             <div className="page">
                 <div className="page-title">
-                    HOME
+                    MUSIC
                 </div>
                 <Section className="bkg-blue"/>
                 <Section className="bkg-orange"/>
@@ -18,4 +18,4 @@ class Home extends Component {
     }
 };
 
-export default Home;
+export default Music;

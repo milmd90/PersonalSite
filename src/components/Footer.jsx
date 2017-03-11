@@ -4,9 +4,7 @@ import { Router, Route, Link, browserHistory } from 'react-router';
 class Footer extends Component {
     render() {
         return (
-            <div>
-                Footer
-            </div>
+            <div className="Footer"></div>
         );
     }
 };

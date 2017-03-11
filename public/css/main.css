@@ -1,3 +1,33 @@
+* {
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    background: #aaa;
+}
+
+.header {
+    text-align: center;
+}
+
+.header .mdm-icon {
+    font-size:  30pt;
+    line-height: 100px;
+    vertical-align: middle;
+}
+
+.header .header-link{
+    padding: 0 50px;
+}
+
+.page-title {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+
 :root {
   --my-grey: rgba(174, 199, 188, 1);
   --my-pink: rgba(213, 187, 177, 1);

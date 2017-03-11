@@ -3,11 +3,13 @@ import { Router, Route, Link, browserHistory } from 'react-router';
 
 import Section from './Section';
 
-class Blog extends Component {
+class Software extends Component {
     render() {
         return (
-            <div>
-                <div>Blog</div>
+            <div className="page">
+                <div className="page-title">
+                    SOFTWARE
+                </div>
                 <Section className="bkg-blue"/>
                 <Section className="bkg-orange"/>
                 <Section className="bkg-green"/>
@@ -16,4 +18,4 @@ class Blog extends Component {
     }
 };
 
-export default Blog;
+export default Software;
