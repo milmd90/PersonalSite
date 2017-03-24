@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import Section from '../components/Section';
 
 
-// class gcp_slack extends Component {
+// class GCPSlackPost extends Component {
 //     render() {
 //         return (
 //             <div className="post">
@@ -12,4 +12,4 @@ import Section from '../components/Section';
 //     }
 // };
 
-export default gcp_slack;
+export default GCPSlackPost;
