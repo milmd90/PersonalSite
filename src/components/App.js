@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import { Router, Route, Link, browserHistory } from 'react-router';
 
 import Base from './Base';
-// import Page from './Page';
 import Home from './Home';
 import Software from './Software';
 import Sammies from './Sammies';

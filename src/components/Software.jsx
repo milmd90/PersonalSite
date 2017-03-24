@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import { Router, Route, Link, browserHistory } from 'react-router';
-
-import Section from './Section';
+import gcp_slack from '../../public/posts/gcp_slack';
 
 class Software extends Component {
     render() {
@@ -10,9 +9,7 @@ class Software extends Component {
                 <div className="page-title">
                     SOFTWARE
                 </div>
-                <Section className="bkg-blue"/>
-                <Section className="bkg-orange"/>
-                <Section className="bkg-green"/>
+                <gcp_slack/>
             </div>
         );
     }

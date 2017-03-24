@@ -9,12 +9,16 @@
 }
 
 .header .mdm-icon {
-    font-size:  30pt;
+    font-size: 30pt;
     line-height: 100px;
     vertical-align: middle;
 }
 
-.header .header-link{
+.header-links {
+    margin: 0 0 20px;
+}
+
+.header-link{
     padding: 0 50px;
 }
 
