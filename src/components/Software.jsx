@@ -1,15 +1,13 @@
 import React, { Component } from 'react';
-import { Router, Route, Link, browserHistory } from 'react-router';
 import GCPSlackPost from './../posts/GCPSlackPost';
+import WebsitePost from './../posts/WebsitePost';
 
 class Software extends Component {
     render() {
         return (
             <div className="page">
-                <div className="page-title">
-                    SOFTWARE
-                </div>
-                <GCPSlackPost />
+                <GCPSlackPost theme="bkg-green"/>
+                {/* <WebsitePost theme="bkg-blue"/> */}
             </div>
         );
     }

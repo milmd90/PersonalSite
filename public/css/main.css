@@ -1,6 +1,10 @@
 * {
     font-family: 'Raleway', sans-serif;
     color: white;
+    background: inherit;
+}
+
+body {
     background: #aaa;
 }
 
@@ -28,6 +32,28 @@
 
 a {
     text-decoration: none;
+}
+
+/*Post formating*/
+.post {
+    margin:5px;
+    padding: 20px 40px;
+}
+
+.post-header {
+    margin-bottom: 15px;
+}
+
+.post-title {
+
+}
+
+.post-created {
+    float: right;
+}
+
+.post-body {
+    padding: 15px;
 }
 
 
