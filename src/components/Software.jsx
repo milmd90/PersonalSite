@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Router, Route, Link, browserHistory } from 'react-router';
-import gcp_slack from '../../public/posts/gcp_slack';
+import gcp_slack from '../posts/gcp_slack';
 
 class Software extends Component {
     render() {
@@ -9,7 +9,7 @@ class Software extends Component {
                 <div className="page-title">
                     SOFTWARE
                 </div>
-                <gcp_slack/>
+                <gcp_slack />
             </div>
         );
     }
