@@ -6,7 +6,7 @@ class Software extends Component {
     render() {
         return (
             <div className="page">
-                <GCPSlackPost theme="bkg-green"/>
+                <GCPSlackPost theme="bkg-blue"/>
                 {/* <WebsitePost theme="bkg-blue"/> */}
             </div>
         );
