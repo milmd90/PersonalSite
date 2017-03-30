@@ -5,9 +5,6 @@ class Header extends Component {
     render() {
         return (
             <div className="header">
-                <div className="mdm-icon">
-                    MDM
-                </div>
                 <div className="header-links">
                     <span className="header-link">
                         <Link to="/home">HOME</Link>
@@ -21,6 +18,9 @@ class Header extends Component {
                     <span className="header-link">
                         <Link to="/music">MUSIC</Link>
                     </span>
+                </div>
+                <div className="mdm-icon">
+                    MDM
                 </div>
             </div>
         );

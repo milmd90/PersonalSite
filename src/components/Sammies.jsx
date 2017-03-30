@@ -8,11 +8,8 @@ class Sammies extends Component {
         return (
             <div className="page">
                 <div className="page-title">
-                    SAMMIES
+                    Coming Soon!
                 </div>
-                <Section className="bkg-blue"/>
-                <Section className="bkg-orange"/>
-                <Section className="bkg-green"/>
             </div>
         );
     }

@@ -13,6 +13,10 @@ h1, h2, h3, h4, h5, h6 {
     margin-top: 0;
 }
 
+.center {
+    text-align: center;
+}
+
 .header {
     text-align: center;
 }
@@ -24,7 +28,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .header-links {
-    margin: 0 0 20px;
+    margin: 20px 0;
 }
 
 .header-link{
@@ -39,13 +43,21 @@ a {
     text-decoration: none;
 }
 
+a.hover-bold {
+    color: var(--my-orange);;
+}
+
+.hover-bold:hover {
+    font-weight: bold;
+}
+
 /*Post formating*/
 .post {
     padding: 20px 40px;
 }
 
 .post-header {
-    margin-bottom: 15px;
+    margin: 15px 0;
 }
 
 .post-title {
@@ -58,6 +70,11 @@ a {
 
 .post-body {
     padding: 15px;
+}
+
+.post-body p {
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 

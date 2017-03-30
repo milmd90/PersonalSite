@@ -6,7 +6,7 @@ class GCPSlackPost extends Component {
         return (
             <div className={this.props.theme +' post'}>
                 <PostHeader title="GCP Logging Slack Integration"
-                            created="23 March 2017"
+                            created="15 April 2017"
                 />
                 <div className="post-body">
                     <div>
