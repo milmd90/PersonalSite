@@ -24,14 +24,17 @@ h1, h2, h3, h4, h5, h6 {
 .header .mdm-icon {
     font-size: 30pt;
     line-height: 100px;
-    vertical-align: middle;
+    margin-top: 50px;
 }
 
 .header-links {
-    margin: 20px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    line-height: 40px;
 }
 
-.header-link{
+.header-link {
     padding: 0 50px;
 }
 
