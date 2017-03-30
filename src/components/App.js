@@ -12,15 +12,18 @@ class App extends Component {
     render() {
         return (
             <div>
-              <Router history={browserHistory}>
-                  <Route path="/" component={Base}>
-                      <Route path="/home" component={Home}/>
-                      <Route path="/software" component={Software}/>
-                      <Route path="/sammies" component={Sammies}/>
-                      <Route path="/music" component={Music}/>
-                  </Route>
-                  <Route path="*" component={ErrorPage}/>
-              </Router>
+                <Router history={browserHistory}>
+                    <Route component={Base}>
+                        <Route path="/" component={Home}/>
+                    </Route>
+                    <Route component={Base}>
+                        <Route path="/home" component={Home}/>
+                        <Route path="/software" component={Software}/>
+                        <Route path="/sammies" component={Sammies}/>
+                        <Route path="/music" component={Music}/>
+                    </Route>
+                    <Route path="*" component={ErrorPage}/>
+                </Router>
             </div>
         );
     }
