@@ -12,6 +12,8 @@
     "react-scripts": "^0.8.5"
   },
   "scripts": {
+    "deploy": "gcloud app deploy",
+    "browse": "gcloud app browse",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
