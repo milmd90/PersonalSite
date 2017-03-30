@@ -11,7 +11,7 @@ import ErrorPage from './ErrorPage';
 class App extends Component {
     render() {
         return (
-          <div>
+            <div>
               <Router history={browserHistory}>
                   <Route path="/" component={Base}>
                       <Route path="/home" component={Home}/>
@@ -21,7 +21,7 @@ class App extends Component {
                   </Route>
                   <Route path="*" component={ErrorPage}/>
               </Router>
-          </div>
+            </div>
         );
     }
 }
