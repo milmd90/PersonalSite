@@ -80,6 +80,38 @@ a.hover-bold {
     margin-right: 20px;
 }
 
+.new-comment {
+    & {
+        margin: 0 20px;
+    }
+
+    textarea {
+        color: black;
+        font-size: 10pt;
+        background: white;
+        width: 100%;
+        height: 80px;
+        resize: none;
+    }
+}
+
+.comments {
+    margin: 0 40px;
+}
+
+.comment {
+    margin: 20px;
+}
+
+.comment-time {
+    float: right;
+}
+
+.comment-text {
+    margin-left: 20px;
+}
+
+
 
 
 :root {

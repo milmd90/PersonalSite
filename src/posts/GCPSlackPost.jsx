@@ -1,8 +1,11 @@
 import React, { Component } from 'react';
 import PostHeader from '../components/PostHeader';
+import CommentSection from '../components/CommentSection';
 
 class GCPSlackPost extends Component {
     render() {
+        var commentSection = this.props.link ? '' : <CommentSection post="GCPSlackPost"/>;
+
         return (
             <div className={this.props.theme +' post'}>
                 <PostHeader title="GCP Logging Slack Integration"
@@ -50,6 +53,7 @@ class GCPSlackPost extends Component {
                     </div>
 
                 </div>
+            {commentSection}
             </div>
         )
     }

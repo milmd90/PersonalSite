@@ -1,8 +1,11 @@
 import React, { Component } from 'react';
 import PostHeader from '../components/PostHeader';
+import CommentSection from '../components/CommentSection';
 
 class WebsitePost extends Component {
     render() {
+        var commentSection = this.props.link ? '' : <CommentSection post="GCPSlackPost"/>;
+
         return (
             <div className={this.props.theme +' post'}>
                 <PostHeader title="Creating a Website"
@@ -51,6 +54,7 @@ class WebsitePost extends Component {
                         </p>
                     </div>
                 </div>
+            {commentSection}
             </div>
         )
     }

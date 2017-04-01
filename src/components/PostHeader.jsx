@@ -13,9 +13,7 @@ class PostHeader extends Component {
         return (
             <div className="post-header">
                 <div className="post-created">{this.props.created}</div>
-                <div className="post-title">
-                    {this.title}
-                </div>
+                <div className="post-title">{this.title}</div>
             </div>
         );
     }
