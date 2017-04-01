@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
-import Comment from './Comment';
 import $ from 'jquery';
+import Comment from './Comment';
+import DBConnection from '../utilities/DBConnection';
 
 class CommentSection extends Component {
-    constructor(props) {
-        super(props);
-    }
-
     componentWillMount() {
+        var db = new DBConnection();
+        console.log(db.getConnection());
+
         this.setState({
             comments: [
                 {

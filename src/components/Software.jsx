@@ -9,7 +9,7 @@ class Software extends Component {
                 <GCPSlackPost theme="bkg-blue"
                               link="/software/gcp_slack"
                 />
-                <WebsitePost theme="bkg-green" link
+                <WebsitePost theme="bkg-green"
                               link="/software/website"
                 />
             </div>

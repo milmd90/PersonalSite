@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import Section from '../components/Section';
 
 class PostHeader extends Component {
     constructor(props) {

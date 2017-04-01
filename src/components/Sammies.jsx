@@ -1,7 +1,4 @@
 import React, { Component } from 'react';
-import { Router, Route, Link, browserHistory } from 'react-router';
-
-import Section from './Section';
 
 class Sammies extends Component {
     render() {

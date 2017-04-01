@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { Router, Route, Link, browserHistory } from 'react-router';
 
 import HomePost from '../posts/HomePost';
 
