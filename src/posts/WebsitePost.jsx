@@ -6,6 +6,7 @@ class WebsitePost extends Component {
         return (
             <div className={this.props.theme +' post'}>
                 <PostHeader title="Creating a Website"
+                            link={this.props.link}
                             created="10 April 2017"
                 />
                 <div className="post-body">

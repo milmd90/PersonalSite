@@ -7,6 +7,8 @@ import Software from './Software';
 import Sammies from './Sammies';
 import Music from './Music';
 import ErrorPage from './ErrorPage';
+import WebsitePost from '../posts/WebsitePost';
+import GCPSlackPost from '../posts/GCPSlackPost';
 
 class App extends Component {
     render() {
@@ -16,9 +18,12 @@ class App extends Component {
                     <Route component={Base}>
                         <Route path="/" component={Home}/>
                     </Route>
+                    <Route path="/software/website" component={WebsitePost}/>
+                    <Route path="/software/gcp_slack" component={GCPSlackPost}/>
                     <Route component={Base}>
                         <Route path="/home" component={Home}/>
-                        <Route path="/software" component={Software}/>
+                        <Route path="/software" component={Software}>
+                        </Route>
                         <Route path="/sammies" component={Sammies}/>
                         <Route path="/music" component={Music}/>
                     </Route>
