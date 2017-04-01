@@ -1,3 +1,4 @@
+/* General elements */
 * {
     font-family: 'Raleway', sans-serif;
     color: white;
@@ -13,10 +14,20 @@ h1, h2, h3, h4, h5, h6 {
     margin-top: 0;
 }
 
+a {
+    text-decoration: none;
+
+    &.hover-bold {
+        color: var(--my-orange);;
+    }
+}
+
 .center {
     text-align: center;
 }
 
+
+/* Header and Titles */
 .header {
     text-align: center;
 
@@ -41,15 +52,7 @@ h1, h2, h3, h4, h5, h6 {
     text-align: center;
 }
 
-a {
-    text-decoration: none;
-
-    &.hover-bold {
-        color: var(--my-orange);;
-    }
-}
-
-/*Post formating*/
+/* Post formating */
 .post {
     padding: 20px 40px;
 
@@ -71,8 +74,6 @@ a {
             margin-right: 20px;
         }
     }
-
-
 }
 
 .new-comment {
@@ -97,7 +98,6 @@ a {
         .comment-time {
             float: right;
         }
-
         .comment-text {
             margin-left: 20px;
         }

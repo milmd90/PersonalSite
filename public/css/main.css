@@ -1,3 +1,4 @@
+/* General elements */
 * {
   font-family: 'Raleway', sans-serif;
   color: white;
@@ -10,9 +11,15 @@ body {
 h1, h2, h3, h4, h5, h6 {
   margin-top: 0; }
 
+a {
+  text-decoration: none; }
+  a.hover-bold {
+    color: var(--my-orange); }
+
 .center {
   text-align: center; }
 
+/* Header and Titles */
 .header {
   text-align: center; }
   .header .mdm-icon {
@@ -30,12 +37,7 @@ h1, h2, h3, h4, h5, h6 {
 .page-title {
   text-align: center; }
 
-a {
-  text-decoration: none; }
-  a.hover-bold {
-    color: var(--my-orange); }
-
-/*Post formating*/
+/* Post formating */
 .post {
   padding: 20px 40px; }
   .post .post-header {
