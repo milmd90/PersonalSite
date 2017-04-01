@@ -19,23 +19,22 @@ h1, h2, h3, h4, h5, h6 {
 
 .header {
     text-align: center;
-}
 
-.header .mdm-icon {
-    font-size: 30pt;
-    line-height: 100px;
-    margin-top: 50px;
-}
+    .mdm-icon {
+        font-size: 30pt;
+        line-height: 100px;
+        margin-top: 50px;
+    }
+    .header-links {
+        position: fixed;
+        width: 100%;
+        top: 0;
+        line-height: 40px;
 
-.header-links {
-    position: fixed;
-    width: 100%;
-    top: 0;
-    line-height: 40px;
-}
-
-.header-link {
-    padding: 0 50px;
+        .header-link {
+            padding: 0 50px;
+        }
+    }
 }
 
 .page-title {
@@ -44,46 +43,40 @@ h1, h2, h3, h4, h5, h6 {
 
 a {
     text-decoration: none;
-}
 
-a.hover-bold {
-    color: var(--my-orange);;
-}
-
-.hover-bold:hover {
-    font-weight: bold;
+    &.hover-bold {
+        color: var(--my-orange);;
+    }
 }
 
 /*Post formating*/
 .post {
     padding: 20px 40px;
-}
 
-.post-header {
-    margin: 15px 0;
-}
+    .post-header {
+        margin: 15px 0;
 
-.post-title {
-    font-size: 18pt;
-}
+        .post-title {
+            font-size: 18pt;
+        }
+        .post-created {
+            float: right;
+        }
+    }
+    .post-body {
+        padding: 15px;
 
-.post-created {
-    float: right;
-}
+        p {
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+    }
 
-.post-body {
-    padding: 15px;
-}
 
-.post-body p {
-    margin-left: 20px;
-    margin-right: 20px;
 }
 
 .new-comment {
-    & {
-        margin: 0 20px;
-    }
+    margin: 0 20px;
 
     textarea {
         color: black;
@@ -97,21 +90,19 @@ a.hover-bold {
 
 .comments {
     margin: 0 40px;
+
+    .comment {
+        margin: 20px;
+
+        .comment-time {
+            float: right;
+        }
+
+        .comment-text {
+            margin-left: 20px;
+        }
+    }
 }
-
-.comment {
-    margin: 20px;
-}
-
-.comment-time {
-    float: right;
-}
-
-.comment-text {
-    margin-left: 20px;
-}
-
-
 
 
 :root {
