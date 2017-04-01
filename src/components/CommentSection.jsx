@@ -1,59 +1,65 @@
 import React, { Component } from 'react';
+import Comment from './Comment';
+import $ from 'jquery';
 
 class CommentSection extends Component {
     constructor(props) {
         super(props);
-        this.getComments();
-        this.formatComments();
     }
 
-    getComments() {
-        this.comments = [
-            {
-                author: "Guy Person",
-                comment: "This is a test comment",
-                time: "1 April 2017"
-            },{
-                author: "Dude McMan",
-                comment: "This is another test comment",
-                time: "10 April 2017"
-            }
-        ];
+    componentWillMount() {
+        this.setState({
+            comments: [
+                {
+                    author: "Guy Person",
+                    text: "This is a test comment",
+                    time: "1 April 2017"
+                },{
+                    author: "Dude McMan",
+                    text: "This is another test comment",
+                    time: "10 April 2017"
+                },
+            ]
+        });
     }
 
-    formatComments() {
-        if (!this.comments) {
-            return;
+    onSubmit(e) {
+        e.preventDefault();
+
+        var d = new Date();
+        var comment = {
+            'author': "author",
+            'time':   d.toLocaleDateString(),
+            'text':   $('.new-comment textarea').val(),
         }
-
-        this.commentsHtml = this.comments.map((comment) => {
-            return (
-                <div className="comment">
-                    <div className="comment-header">
-                        <span className="comment-author">
-                            {comment.author}
-                        </span>
-                        <span className="comment-time">
-                            {comment.time}
-                        </span>
-                    </div>
-                    <div className="comment-text">
-                        {comment.comment}
-                    </div>
-                </div>
-            );
+        this.setState({
+            comments: [comment].concat(this.state.comments)
         });
     }
 
     render() {
+        if (!this.state.comments) {
+            return null;
+        }
+
         return (
             <div id={this.props.post} className="comment-section">
                 <div><h4>Comments</h4></div>
                 <div className="new-comment">
-                    <textarea />
+                    <form onSubmit={this.onSubmit.bind(this)}>
+                        <textarea />
+                        <button type="submit">Submit</button>
+                    </form>
                 </div>
                 <div className="comments">
-                    {this.commentsHtml}
+                    {this.state.comments.map((comment) => {
+                        return (
+                            <Comment author={comment.author}
+                                     time={comment.time}
+                                     text={comment.text}
+                            />
+                        );
+                    })}
                 </div>
             </div>
         );
