@@ -5,21 +5,10 @@ import DBConnection from '../utilities/DBConnection';
 
 class CommentSection extends Component {
     componentWillMount() {
-        var db = new DBConnection();
-        console.log(db.getConnection());
-
+        this.db = new DBConnection();
+        
         this.setState({
-            comments: [
-                {
-                    author: "Guy Person",
-                    text: "This is a test comment",
-                    time: "1 April 2017"
-                },{
-                    author: "Dude McMan",
-                    text: "This is another test comment",
-                    time: "10 April 2017"
-                },
-            ]
+            comments: this.db.getPosts(this.props.post)
         });
     }
 
@@ -32,9 +21,15 @@ class CommentSection extends Component {
             'time':   d.toLocaleDateString(),
             'text':   $('.new-comment textarea').val(),
         }
-        this.setState({
-            comments: [comment].concat(this.state.comments)
+
+        this.db.addPost(comment, (success) => {
+            if (success) {
+                this.setState({
+                    comments: [comment].concat(this.state.comments)
+                });
+            }
         });
+
     }
 
     render() {
