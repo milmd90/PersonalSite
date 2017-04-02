@@ -8,7 +8,7 @@ node_modules
 .DS_Store
 .env
 npm-debug.log
-config.js
+config.json
 
 # testing
 coverage
