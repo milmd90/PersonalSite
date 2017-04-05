@@ -7,9 +7,10 @@
   "author": "Matthew Miller",
   "license": "MIT",
   "dependencies": {
+    "babel": "^6.23.0",
+    "express": "^4.13.4",
     "react": "^15.4.2",
     "react-dom": "^15.4.2",
-    "react-router": "^3.0.3",
-    "express": "^4.13.4"
+    "react-router": "^3.0.3"
   }
 }
