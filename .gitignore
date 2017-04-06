@@ -1,17 +1,8 @@
-# dependencies
 node_modules
-
-#Built CSS
+coverage
+build
+*/config.json
+npm-debug.log
 *.css
-
-# misc
 .DS_Store
 .env
-npm-debug.log
-config.json
-
-# testing
-coverage
-
-# production
-build
