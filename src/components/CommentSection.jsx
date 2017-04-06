@@ -6,7 +6,7 @@ import DBConnection from '../utilities/DBConnection';
 class CommentSection extends Component {
     componentWillMount() {
         this.db = new DBConnection();
-        
+
         this.setState({
             comments: this.db.getPosts(this.props.post)
         });
