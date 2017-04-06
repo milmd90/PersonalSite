@@ -54,7 +54,7 @@ class WebsitePost extends Component {
                         </p>
                     </div>
                 </div>
-            {/* {commentSection} */}
+            {commentSection}
             </div>
         )
     }

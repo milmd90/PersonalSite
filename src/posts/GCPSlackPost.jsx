@@ -53,7 +53,7 @@ class GCPSlackPost extends Component {
                     </div>
 
                 </div>
-            {/* {commentSection} */}
+            {commentSection}
             </div>
         )
     }

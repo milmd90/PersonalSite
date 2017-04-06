@@ -7,7 +7,7 @@ class Software extends Component {
         return (
             <div className="page">
                 <GCPSlackPost
-                    theme="bkg-blue"
+                    theme="bkg-green"
                     link="/software/gcp_slack"
                 />
                 <WebsitePost
