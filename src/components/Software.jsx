@@ -11,7 +11,7 @@ class Software extends Component {
                     link="/software/gcp_slack"
                 />
                 <WebsitePost
-                    theme="bkg-green"
+                    theme="bkg-blue"
                     link="/software/website"
                 />
             </div>

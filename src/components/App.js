@@ -17,15 +17,13 @@ class App extends Component {
                 <Router history={browserHistory}>
                     <Route component={Base}>
                         <Route path="/" component={Home}/>
-                    </Route>
-                    <Route path="/software/website" component={WebsitePost}/>
-                    <Route path="/software/gcp_slack" component={GCPSlackPost}/>
-                    <Route component={Base}>
                         <Route path="/home" component={Home}/>
                         <Route path="/software" component={Software}/>
                         <Route path="/sammies" component={Sammies}/>
                         <Route path="/music" component={Music}/>
                     </Route>
+                    <Route path="/software/website" component={WebsitePost}/>
+                    <Route path="/software/gcp_slack" component={GCPSlackPost}/>
                     <Route path="*" component={ErrorPage}/>
                 </Router>
             </div>
