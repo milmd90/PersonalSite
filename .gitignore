@@ -2,6 +2,7 @@ node_modules
 coverage
 build
 src/utilities/config.json
+public/bundle.js
 npm-debug.log
 *.css
 .DS_Store

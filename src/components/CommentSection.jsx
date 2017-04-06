@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
 import $ from 'jquery';
 import Comment from './Comment';
-import DBConnection from '../utilities/DBConnection';
+// import DBConnection from '../utilities/DBConnection';
 
 class CommentSection extends Component {
     componentWillMount() {
-        this.db = new DBConnection();
+        // this.db = new DBConnection();
 
         this.setState({
             comments: this.db.getPosts(this.props.post)
@@ -22,13 +22,13 @@ class CommentSection extends Component {
             'text':   $('.new-comment textarea').val(),
         }
 
-        this.db.addPost(comment, (success) => {
-            if (success) {
-                this.setState({
-                    comments: [comment].concat(this.state.comments)
-                });
-            }
-        });
+        // this.db.addPost(comment, (success) => {
+        //     if (success) {
+        //         this.setState({
+        //             comments: [comment].concat(this.state.comments)
+        //         });
+        //     }
+        // });
 
     }
 
