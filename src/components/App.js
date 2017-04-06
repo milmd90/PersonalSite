@@ -22,8 +22,7 @@ class App extends Component {
                     <Route path="/software/gcp_slack" component={GCPSlackPost}/>
                     <Route component={Base}>
                         <Route path="/home" component={Home}/>
-                        <Route path="/software" component={Software}>
-                        </Route>
+                        <Route path="/software" component={Software}/>
                         <Route path="/sammies" component={Sammies}/>
                         <Route path="/music" component={Music}/>
                     </Route>
