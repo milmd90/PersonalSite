@@ -211,7 +211,7 @@ class Resume extends Component {
                         </div>
                         <div className="content">
                             <div className="subsection">
-                                <div className="info">
+                                <div className="info orphan">
                                     Taylor Physics Fellow, Rhodes College Fellow, Sigma Pi Sigma
                                 </div>
                             </div>
