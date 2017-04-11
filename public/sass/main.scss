@@ -22,7 +22,7 @@ a {
     }
 }
 
-td, th {
+div {
     vertical-align: top;
 }
 
@@ -114,25 +114,53 @@ td, th {
 
 //Resume
 .resume {
-    .section td {
-        padding-top: 25px;
-    }
-    .subsection td {
-        padding-top: 15px;
-    }
-    .section-title {
-        width: 200px;
-    }
-    .item-text {
-        text-indent: -25px;
-        padding-left: 50px;
-    }
-    .item-column {
-        width: 400px;
-    }
-    .item-date {
-        width: 150px;
-        text-align: right;
+    .section {
+        .title {
+            display: inline-block;
+            width: 15%;
+        }
+        .content {
+            display: inline-block;
+            width: 80%;
+
+            .subsection {
+                padding-bottom: 25px;
+
+                .header {
+                    text-align: left;
+
+                    .item {
+                        font-weight: bold;
+                        display: inline-block;
+                    }
+                }
+                .info {
+                    width: 80%;
+                    padding-left: 50px;
+                    text-indent: -25px;
+                    margin: 5px;
+
+                    &.orphan {
+                        padding-left: 0;
+                        text-indent: 0;
+                    }
+
+                    li {
+                        list-style: none;
+                    }
+                }
+                .info-date-item {
+                    display: inline-block;
+                    margin: 5px;
+                    padding-left: 50px;
+                    text-indent: -25px;
+                }
+                .date {
+                    float: right;
+                    display: inline-block;
+                }
+            }
+        }
     }
 }
 
