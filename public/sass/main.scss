@@ -22,6 +22,10 @@ a {
     }
 }
 
+td, th {
+    vertical-align: top;
+}
+
 .center {
     text-align: center;
 }
@@ -46,6 +50,10 @@ a {
             padding: 0 50px;
         }
     }
+}
+.footer{
+    text-align: center;
+    padding: 25px;
 }
 
 .page-title {
@@ -101,6 +109,29 @@ a {
         .comment-text {
             margin-left: 20px;
         }
+    }
+}
+
+//Resume
+.resume {
+    .section td {
+        padding-top: 25px;
+    }
+    .subsection td {
+        padding-top: 15px;
+    }
+    .section-title {
+        width: 200px;
+    }
+    .item-title {
+
+    }
+    .item-text {
+        padding-left: 25px;
+    }
+    .item-date {
+        width: 150px;
+        text-align: right;
     }
 }
 
