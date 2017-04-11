@@ -9,7 +9,8 @@ class Home extends Component {
                         <p className="center">
                              I am a frontend web developer working at OrderMyGear in Dallas. <br/>
                              I also enjoy playing guitar and eating sandwiches. <br/>
-                             This website is a work in progress.
+                             This website is a work in progress. Feel free to view the source code on
+                             <a class="hover-bold" href="https://github.com/milmd90/PersonalSite">GitHub</a>
                          </p>
                      </div>
                  </div>
