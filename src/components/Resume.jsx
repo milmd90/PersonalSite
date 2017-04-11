@@ -19,7 +19,7 @@ class Resume extends Component {
                                         01/17 - Present
                                     </div>
                                 </div>
-                                <div className="info">
+                                <div className="info subheader">
                                     Software Developer
                                 </div>
                             </div>
@@ -33,7 +33,7 @@ class Resume extends Component {
                                     </div>
                                 </div>
                                 <ul className="info">
-                                    <li>Software Engineer, Visualization Team</li>
+                                    <li className="subheader">Software Engineer, Visualization Team</li>
                                     <li>Created platform tools that are utilized by a team of 60 product managers and writers to create data visualizations</li>
                                     <li>Designed and built two types of interactive visualizations, which receive a combined total of 15 million impressions per month across top publisher sites like AOL, Fox News, USA Today, and more</li>
                                     <li>Responsible for Graphiq's customer feedback interface, including integration and management of Intercom</li>
@@ -51,7 +51,7 @@ class Resume extends Component {
                                     </div>
                                 </div>
                                 <ul className="info">
-                                    <li>Computer Programmer</li>
+                                    <li className="subheader">Computer Programmer</li>
                                     <li>Full stack developer on web application for interacting with National Address Database</li>
                                     <li>Lead designer of UI for application using Javascript, HTML, and CSS</li>
                                     <li>Developed back end model of application using Java</li>
@@ -78,11 +78,17 @@ class Resume extends Component {
                                 </div>
                                 <div className="info">
                                     <div className="column">
-                                        Bachelor of Science: Physics <br/>
+                                        Bachelor of Science: Physics
+                                    </div>
+                                    <div className="column">
+                                        Major GPA: 3.7/4.0
+                                    </div>
+                                </div>
+                                <div className="info">
+                                    <div className="column">
                                         Mathematics minor
                                     </div>
                                     <div className="column">
-                                        Major GPA: 3.7/4.0 <br/>
                                         Overall GPA: 3.68/4.0
                                     </div>
                                 </div>
