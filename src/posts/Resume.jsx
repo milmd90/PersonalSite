@@ -138,7 +138,7 @@ class Resume extends Component {
                         </tr>
                         <tr>
                             <td></td>
-                            <td className="item-text">
+                            <td className="item-text item-column">
                                 Bachelor of Science: Physics <br/>
                                 Mathematics minor
                             </td>
@@ -198,7 +198,7 @@ class Resume extends Component {
                         </tr>
                         <tr>
                             <td></td>
-                            <td className="item-text">
+                            <td className="item-text item-column">
                                 Computer Programming Certificate
                             </td>
                             <td className="item-text">
