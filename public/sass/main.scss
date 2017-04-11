@@ -1,0 +1,134 @@
+/* General elements */
+* {
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    background: inherit;
+}
+
+body {
+    margin: 0;
+    background: #aaa;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin-top: 0;
+}
+
+a {
+    text-decoration: none;
+
+    &.hover-bold {
+        color: var(--my-orange);;
+    }
+}
+
+.center {
+    text-align: center;
+}
+
+
+/* Header and Titles */
+.header {
+    text-align: center;
+
+    .mdm-icon {
+        font-size: 30pt;
+        line-height: 100px;
+        margin-top: 50px;
+    }
+    .header-links {
+        position: fixed;
+        width: 100%;
+        top: 0;
+        line-height: 40px;
+
+        .header-link {
+            padding: 0 50px;
+        }
+    }
+}
+
+.page-title {
+    text-align: center;
+}
+
+/* Post formating */
+.post {
+    padding: 20px 40px;
+
+    .post-header {
+        margin: 15px 0;
+
+        .post-title {
+            font-size: 18pt;
+        }
+        .post-created {
+            float: right;
+        }
+    }
+    .post-body {
+        padding: 15px;
+
+        p {
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+    }
+}
+
+.new-comment {
+    margin: 0 20px;
+
+    textarea {
+        color: black;
+        font-size: 10pt;
+        background: white;
+        width: 100%;
+        height: 80px;
+        resize: none;
+    }
+}
+
+.comments {
+    margin: 0 40px;
+
+    .comment {
+        margin: 20px;
+
+        .comment-time {
+            float: right;
+        }
+        .comment-text {
+            margin-left: 20px;
+        }
+    }
+}
+
+
+:root {
+  --my-grey: rgba(174, 199, 188, 1);
+  --my-pink: rgba(213, 187, 177, 1);
+  --my-orange: rgba(250, 192, 94, 1);
+  --my-green: rgba(120, 192, 145, 1);
+  --my-blue: rgba(95, 159, 185, 1);
+}
+
+.bkg-grey {
+    background-color: var(--my-grey);
+}
+
+.bkg-pink {
+    background-color: var(--my-pink);
+}
+
+.bkg-orange {
+    background-color: var(--my-orange);
+}
+
+.bkg-green {
+    background-color: var(--my-green);
+}
+
+.bkg-blue {
+    background-color: var(--my-blue);
+}

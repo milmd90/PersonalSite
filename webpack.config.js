@@ -5,6 +5,9 @@ module.exports = {
         filename: './public/bundle.js'
     },
     resolve: {
+        alias: {
+            'App': 'src/components/App.jsx'
+        },
         extensions: ['.js', '.jsx']
     },
     module: {

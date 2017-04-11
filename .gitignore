@@ -1,12 +1,9 @@
-# See http://help.github.com/ignore-files/ for more about ignoring files.
-
-# dependencies
 node_modules
-
-# Config
-/src/utilities/config.json
-
-# misc
+coverage
+build
+src/utilities/config.json
+public/bundle.js
+npm-debug.log
+*.css
 .DS_Store
 .env
-npm-debug.log

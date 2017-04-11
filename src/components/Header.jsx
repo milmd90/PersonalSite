@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Router, Route, Link, browserHistory } from 'react-router';
+import { Link, IndexLink } from 'react-router';
 
 class Header extends Component {
     render() {
@@ -7,7 +7,7 @@ class Header extends Component {
             <div className="header">
                 <div className="header-links">
                     <span className="header-link">
-                        <Link to="/home">HOME</Link>
+                        <IndexLink to="/">HOME</IndexLink>
                     </span>
                     <span className="header-link">
                         <Link to="/software">SOFTWARE</Link>
