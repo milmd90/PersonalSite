@@ -124,7 +124,8 @@ td, th {
         width: 200px;
     }
     .item-text {
-        padding-left: 25px;
+        text-indent: -25px;
+        padding-left: 50px;
     }
     .item-column {
         width: 400px;

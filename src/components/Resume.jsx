@@ -139,11 +139,19 @@ class Resume extends Component {
                         <tr>
                             <td></td>
                             <td className="item-text item-column">
-                                Bachelor of Science: Physics <br/>
+                                Bachelor of Science: Physics
+                            </td>
+                            <td className="item-text">
+                                Major GPA: 3.7/4.0
+                            </td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td className="item-text item-column">
                                 Mathematics minor
                             </td>
                             <td className="item-text">
-                                Major GPA: 3.7/4.0 <br/>
                                 Overall GPA: 3.68/4.0
                             </td>
                             <td></td>
