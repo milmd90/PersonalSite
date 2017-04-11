@@ -6,10 +6,10 @@ class Software extends Component {
     render() {
         return (
             <div className="page">
-                <GCPSlackPost
+                {/* <GCPSlackPost
                     theme="bkg-green"
                     link="/software/gcp_slack"
-                />
+                /> */}
                 <WebsitePost
                     theme="bkg-blue"
                     link="/software/website"
