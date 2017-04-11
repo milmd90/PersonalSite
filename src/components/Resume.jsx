@@ -11,6 +11,23 @@ class Resume extends Component {
                                 EXPERIENCE
                             </td>
                             <td className="item-title" colSpan="2">
+                                <b>OrderMyGear LLC</b>
+                            </td>
+                            <td className="item-date">
+                                01/17 - Present
+                            </td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td className="item-text" colSpan="2">
+                                Software Developer
+                            </td>
+                            <td></td>
+                        </tr>
+
+                        <tr className="section">
+                            <td className="section-title"></td>
+                            <td className="item-title" colSpan="2">
                                 <b>Graphiq Inc.</b>, a Semantic Technology company
                             </td>
                             <td className="item-date">
