@@ -26,7 +26,7 @@ class Resume extends Component {
                             <div className="subsection">
                                 <div className="header">
                                     <div className="item">
-                                        Graphiq Inc.
+                                        Graphiq
                                     </div>
                                     <div className="date">
                                         01/16 - 08/16
@@ -44,7 +44,7 @@ class Resume extends Component {
                             <div className="subsection">
                                 <div className="header">
                                     <div className="item">
-                                        ECS Federal Inc.
+                                        ECS Federal
                                     </div>
                                     <div className="date">
                                         11/14 - 12/15
@@ -77,8 +77,14 @@ class Resume extends Component {
                                     </div>
                                 </div>
                                 <div className="info">
-                                    Bachelor of Science: Physics	Major GPA: 3.7/4.0
-                                    Mathematics minor             	Overall GPA: 3.68/4.0
+                                    <div className="column">
+                                        Bachelor of Science: Physics <br/>
+                                        Mathematics minor
+                                    </div>
+                                    <div className="column">
+                                        Major GPA: 3.7/4.0 <br/>
+                                        Overall GPA: 3.68/4.0
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -131,7 +137,12 @@ class Resume extends Component {
                                     </div>
                                 </div>
                                 <div className="info">
-                                    Computer Programming Certificate	Overall GPA: 4.0/4.0
+                                    <div className="column">
+                                        Computer Programming Certificate
+                                    </div>
+                                    <div className="column">
+                                        Overall GPA: 4.0/4.0
+                                    </div>
                                 </div>
                             </div>
                             <div className="subsection">

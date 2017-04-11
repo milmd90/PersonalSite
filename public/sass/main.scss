@@ -148,6 +148,12 @@ div {
                     li {
                         list-style: none;
                     }
+
+                    .column {
+                        display: inline-block;
+                        text-indent: 0;
+                        width: 40%;
+                    }
                 }
                 .info-date-item {
                     display: inline-block;
