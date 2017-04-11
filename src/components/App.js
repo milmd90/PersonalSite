@@ -3,6 +3,7 @@ import { Router, Route, IndexRoute, browserHistory } from 'react-router';
 
 import Base from './Base';
 import Home from './Home';
+import Resume from './Resume';
 import Software from './Software';
 import Sammies from './Sammies';
 import Music from './Music';
@@ -17,6 +18,7 @@ class App extends Component {
                 <Router history={browserHistory}>
                     <Route path="/" component={Base}>
                         <IndexRoute component={Home}/>
+                        <Route path="resume" component={Resume}/>
                         <Route path="software" component={Software}/>
                         <Route path="sammies" component={Sammies}/>
                         <Route path="music" component={Music}/>

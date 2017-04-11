@@ -10,6 +10,9 @@ class Header extends Component {
                         <IndexLink to="/">HOME</IndexLink>
                     </span>
                     <span className="header-link">
+                        <Link to="/resume">RESUME</Link>
+                    </span>
+                    <span className="header-link">
                         <Link to="/software">SOFTWARE</Link>
                     </span>
                     <span className="header-link">
