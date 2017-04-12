@@ -37,7 +37,6 @@ class WebsitePost extends Component {
                             <li><a href='#node'>Create a Node project</a></li>
                             <li><a href='#tools'>React, Babel, Webpack, Express</a></li>
                             <li><a href='#gcp'>Deploy to Google Cloud Platform</a></li>
-                            <li><a href='#domain'>Custom Domain</a></li>
                         </ul>
                     </div>
                     <div>
