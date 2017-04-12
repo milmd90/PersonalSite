@@ -62,10 +62,10 @@ div {
 
 /* Post formating */
 .post {
-    padding: 20px 40px;
+    padding: 20px 200px;
 
     .post-header {
-        margin: 15px 0;
+        margin: 20px 0;
 
         .post-title {
             font-size: 18pt;
@@ -75,11 +75,15 @@ div {
         }
     }
     .post-body {
-        padding: 15px;
+        padding: 20px;
 
-        p {
-            margin-left: 20px;
-            margin-right: 20px;
+        .subsection {
+            padding-left: 20px;
+        }
+
+        p, ul {
+            margin-left: 50px;
+            margin-right: 50px;
         }
     }
 }
