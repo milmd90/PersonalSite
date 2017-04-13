@@ -4,6 +4,10 @@ var app = express();
 
 app.use(express.static('public'));
 
+app.get('/public/assets/logo_black.png', (req, res) => {
+    res.sendFile(__dirname+'/public/assets/logo_black.png');
+});
+
 app.get('*', (req, res) => {
     res.sendFile(__dirname+'/public/index.html');
 });

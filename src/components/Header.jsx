@@ -22,8 +22,8 @@ class Header extends Component {
                         <Link to="/music">MUSIC</Link>
                     </span>
                 </div>
-                <div className="mdm-icon">
-                    MDM
+                <div className="logo">
+                    <img src="/public/assets/logo_black.png" alt="MDM" width="200" height="200" />
                 </div>
             </div>
         );
