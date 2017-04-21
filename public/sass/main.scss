@@ -35,18 +35,37 @@ div {
 .header {
     text-align: center;
 
-    .logo {
-        padding-top: 50px;
-    }
     .header-links {
+        float: right;
         position: fixed;
         width: 100%;
         top: 0;
-        line-height: 40px;
+        right: 0;
+        line-height: 80px;
 
         .header-link {
             padding: 0 50px;
         }
+    }
+    .logo {
+        position: fixed;
+        top:80px;
+        left: 50%;
+        margin-left: -100px;
+
+        img {
+            width: 200px;
+            height: 200px;
+        }
+    }
+    .mask {
+        position: fixed;
+        height: 84px;
+        width: 100%;
+        background: inherit;
+    }
+    .buffer {
+        padding-top: 290px;
     }
 }
 .footer{

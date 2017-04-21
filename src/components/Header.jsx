@@ -5,6 +5,7 @@ class Header extends Component {
     render() {
         return (
             <div className="header">
+                <div className="mask"></div>
                 <div className="header-links">
                     <span className="header-link">
                         <IndexLink to="/">HOME</IndexLink>
@@ -23,8 +24,9 @@ class Header extends Component {
                     </span>
                 </div>
                 <div className="logo">
-                    <img src="/public/assets/logo_black.png" alt="MDM" width="200" height="200" />
+                    <img src="/public/assets/logo_black.png" alt="MDM"/>
                 </div>
+                <div className="buffer"></div>
             </div>
         );
     }
