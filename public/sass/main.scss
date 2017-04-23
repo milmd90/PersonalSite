@@ -63,20 +63,16 @@ div {
     .header-links {
         float: right;
         position: fixed;
-        width: 100%;
         top: 0;
-        right: 0;
         line-height: 80px;
 
         .header-link {
-            padding: 0 50px;
+            display: inline-block;
+            width: 150px;
         }
     }
     .logo {
         position: fixed;
-        top:80px;
-        left: 50%;
-        margin-left: -100px;
 
         img {
             width: 200px;
