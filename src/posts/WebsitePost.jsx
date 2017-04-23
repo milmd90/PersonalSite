@@ -4,7 +4,7 @@ import CommentSection from '../components/CommentSection';
 
 class WebsitePost extends Component {
     render() {
-        var commentSection = this.props.link ? '' : <CommentSection post="GCPSlackPost"/>;
+        var commentSection = this.props.link ? '' : <CommentSection post="WebsitePost"/>;
 
         return (
             <div className={this.props.theme +' post'}>

@@ -4,8 +4,8 @@ var app = express();
 
 app.use(express.static('public'));
 
-app.get('/public/assets/logo_black.png', (req, res) => {
-    res.sendFile(__dirname+'/public/assets/logo_black.png');
+app.get('/img/:folder/:name', (req, res) => {
+    res.sendFile(__dirname+'/public/assets/'+req.params.folder+'/'+req.params.name);
 });
 
 app.get('*', (req, res) => {
@@ -13,5 +13,5 @@ app.get('*', (req, res) => {
 });
 
 app.listen(3000, function () {
-  console.log('Express server is up on port 3000');
+    console.log('Express server is up on port 3000');
 });

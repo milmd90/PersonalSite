@@ -16,10 +16,11 @@ h1, h2, h3, h4, h5, h6 {
 
 a {
     text-decoration: none;
+    color: var(--my-orange);
+}
 
-    &.hover-bold {
-        color: var(--my-orange);;
-    }
+img {
+    height: 200px;
 }
 
 div {
@@ -30,11 +31,35 @@ div {
     text-align: center;
 }
 
+.ib {
+    display: inline-block;
+     &.ib-2 {
+        width: 16.666666%
+    }
+    &.ib-3 {
+       width: 25%
+   }
+    &.ib-4 {
+        width: 33.333333%
+    }
+    &.ib-6 {
+        width: 50%
+    }
+    &.ib-8 {
+        width: 66.666666%
+    }
+    &.ib-9 {
+        width: 75%
+    }
+}
 
 /* Header and Titles */
 .header {
     text-align: center;
 
+    a {
+        color: white;
+    }
     .header-links {
         float: right;
         position: fixed;

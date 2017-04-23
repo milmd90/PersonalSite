@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-class Music extends Component {
+class DataScience extends Component {
     render() {
         return (
             <div className="page">
@@ -12,4 +12,4 @@ class Music extends Component {
     }
 };
 
-export default Music;
+export default DataScience;
