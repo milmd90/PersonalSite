@@ -1,3 +1,10 @@
+/* Variables */
+$my-grey: rgba(174, 199, 188, 1);
+$my-pink: rgba(213, 187, 177, 1);
+$my-orange: rgba(250, 192, 94, 1);
+$my-green: rgba(120, 192, 145, 1);
+$my-blue: rgba(95, 159, 185, 1);
+
 /* General elements */
 * {
     font-family: 'Raleway', sans-serif;
@@ -52,6 +59,27 @@ div {
         width: 75%
     }
 }
+
+.bkg-grey {
+    background-color: $my-grey;
+}
+
+.bkg-pink {
+    background-color: $my-pink;
+}
+
+.bkg-orange {
+    background-color: $my-orange;
+}
+
+.bkg-green {
+    background-color: $my-green;
+}
+
+.bkg-blue {
+    background-color: $my-blue;
+}
+
 
 /* Header and Titles */
 .header {
@@ -214,33 +242,4 @@ div {
             }
         }
     }
-}
-
-
-:root {
-  --my-grey: rgba(174, 199, 188, 1);
-  --my-pink: rgba(213, 187, 177, 1);
-  --my-orange: rgba(250, 192, 94, 1);
-  --my-green: rgba(120, 192, 145, 1);
-  --my-blue: rgba(95, 159, 185, 1);
-}
-
-.bkg-grey {
-    background-color: var(--my-grey);
-}
-
-.bkg-pink {
-    background-color: var(--my-pink);
-}
-
-.bkg-orange {
-    background-color: var(--my-orange);
-}
-
-.bkg-green {
-    background-color: var(--my-green);
-}
-
-.bkg-blue {
-    background-color: var(--my-blue);
 }
