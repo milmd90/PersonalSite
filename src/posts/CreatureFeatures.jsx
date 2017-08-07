@@ -10,12 +10,14 @@ class CreatureFeatures extends Component {
                             created="22 April 2017"
                 />
                 <div className="post-body">
-                    <div className="ib ib-3">
-                        <img src="/img/music/creaturefeatures.jpg" alt="creature features"/>
+                    <div className="ib ib-4">
+                        <img className="center" src="/img/music/creaturefeatures.jpg" alt="creature features"/>
                     </div>
-                    <div className="ib ib-9">
-                        <a href="https://soundcloud.com/creature-features-448133117" target="_blank">Here </a>
-                        are three tracks I recorded with my friend, David Bergen, under the name Creature Features.
+                    <div className="ib ib-8">
+                        <p>
+                            <a href="https://soundcloud.com/creature-features-448133117" target="_blank">Here </a>
+                            are three tracks I recorded with my friend, David Bergen, under the name Creature Features.
+                        </p>
                     </div>
                 </div>
             </div>

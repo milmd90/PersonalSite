@@ -24,7 +24,7 @@ class WebsitePost extends Component {
                             necessary steps to build a functioning site.
                         </p>
                         <p>
-                            This site is a Node.js application, using React, and hosted in Google Cloud Platform. I use Git for my version control
+                            This site is a Node.js application, using React, and hosted on Heroku. I use Git for my version control
                             and the code is open to view on
                             <a className='hover-bold' href='https://github.com/milmd90/PersonalSite'> my GitHub page</a>.
                         </p>
@@ -36,7 +36,7 @@ class WebsitePost extends Component {
                         <ul>
                             <li><a href='#node'>Create a Node project</a></li>
                             <li><a href='#tools'>React, Babel, Webpack, Express</a></li>
-                            <li><a href='#gcp'>Deploy to Google Cloud Platform</a></li>
+                            <li><a href='#gcp'>Deploy to Heroku</a></li>
                         </ul>
                     </div>
                     <div>
@@ -104,13 +104,14 @@ class WebsitePost extends Component {
                     </div>
                     <div>
                         <h3 className="section" id='gcp'>
-                            Deploy to Google Cloud Platform
+                            Deploy to Heroku
                         </h3>
                         <ul>
-                            <li>Create a new GCP project</li>
-                            <li><a href="https://cloud.google.com/sdk/docs/">Download SDK</a></li>
-                            <li>Deploy your app to GCP with `gcloud app deploy`</li>
-                            <li>Laung your app in the browser with `gcloud app browse`</li>
+                            <li>Create a Heroku account</li>
+                            <li>Click on 'New', and then select 'Create new app'</li>
+                            <li>Click, 'Connect to GitHub' and select the repository name containing your app code</li>
+                            <li>Choose either Automatic or Manual deploys</li>
+                            <li>After your app is deployed, click 'Open' to see your new website!</li>
                         </ul>
                     </div>
                 </div>

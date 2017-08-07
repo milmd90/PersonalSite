@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import UncleUbers from './../posts/UncleUbers';
+import Bootcamp from './../posts/Bootcamp';
 import Design from './../posts/Design';
 import CreatureFeatures from './../posts/CreatureFeatures';
 
@@ -7,7 +7,7 @@ class Personal extends Component {
     render() {
         return (
             <div className="page">
-                <UncleUbers
+                <Bootcamp
                     theme="bkg-pink"
                 />
                 <Design

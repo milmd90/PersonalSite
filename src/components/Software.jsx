@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import GCPSlackPost from './../posts/GCPSlackPost';
 import WebsitePost from './../posts/WebsitePost';
 
 class Software extends Component {
@@ -8,7 +7,7 @@ class Software extends Component {
             <div className="page">
                 <WebsitePost
                     theme="bkg-blue"
-                    link="/software/website"
+                    link="/posts/website"
                 />
             </div>
         );

@@ -18,9 +18,15 @@ class Resume extends Component {
                                     <div className="date">
                                         01/17 - Present
                                     </div>
-                                </div>
-                                <div className="info subheader">
-                                    Software Developer
+                                    <ul className="info">
+                                        <li className="subheader">Software Developer</li>
+                                        <li>Wrote automated Jenkins task to query database and resolve Stripe transactions in invalid states</li>
+                                        <li>Restructured Stripe processing sequence to allow charge and refund idempotency</li>
+                                        <li>Updated user interface to use Stripe V3 Elements for dynamic validation and improved security</li>
+                                        <li>Added additional app metrics and monitors to improve Datadog alerting</li>
+                                        <li>Created a Slack App and GCP Pub/Sub to post tagged application logs to Slack channel</li>
+                                        <li>Delivered roundtable presentation on machine learning and potential company applications</li>
+                                    </ul>
                                 </div>
                             </div>
                             <div className="subsection">
@@ -34,11 +40,11 @@ class Resume extends Component {
                                 </div>
                                 <ul className="info">
                                     <li className="subheader">Software Engineer, Visualization Team</li>
-                                    <li>Created platform tools that are utilized by a team of 60 product managers and writers to create data visualizations</li>
-                                    <li>Designed and built two types of interactive visualizations, which receive a combined total of 15 million impressions per month across top publisher sites like AOL, Fox News, USA Today, and more</li>
+                                    <li>Created platform tools utilized by Graphiq’s internal team to create data visualizations</li>
+                                    <li>Designed and built two types of interactive visualizations,
+                                        which receive a combined total of 15 million views per month across top publisher sites like AOL, Fox News, USA Today</li>
                                     <li>Responsible for Graphiq's customer feedback interface, including integration and management of Intercom</li>
                                     <li>Designed and built an internal RESTful API that allowed Graphiq employees to rapidly make updates to thousands of visualizations</li>
-                                    <li>Used Swagger to document the API and Tyk as an API Gateway</li>
                                 </ul>
                             </div>
                             <div className="subsection">

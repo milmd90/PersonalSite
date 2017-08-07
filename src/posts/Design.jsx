@@ -5,7 +5,7 @@ class Design extends Component {
     render() {
         return (
             <div className={this.props.theme +' post'}>
-                <PostHeader title="Design"
+                <PostHeader title="Graphic Design"
                             link={this.props.link}
                             created="23 April 2017"
                 />
@@ -16,9 +16,9 @@ class Design extends Component {
                         </p>
                     </div>
                     <div className="ib ib-6">
-                        <img src="/img/logo/logo_black.png" alt="matt"/>
-                        <img src="/img/logo/tanner.png" alt="tanner"/>
-                        <img src="/img/logo/rikeen.png" alt="rikeen"/>
+                        <img className="ib ib-4" src="/img/logo/logo_black.png" alt="matt"/>
+                        <img className="ib ib-4" src="/img/logo/tanner.png" alt="tanner"/>
+                        <img className="ib ib-4" src="/img/logo/rikeen.png" alt="rikeen"/>
                     </div>
                 </div>
             </div>

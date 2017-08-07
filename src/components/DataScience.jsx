@@ -1,12 +1,14 @@
 import React, { Component } from 'react';
+import Presentation from './../posts/Presentation';
 
 class DataScience extends Component {
     render() {
         return (
             <div className="page">
-                <div className="page-title">
-                    Coming Soon!
-                </div>
+                <Presentation
+                    theme="bkg-green"
+                    link="/posts/presentation"
+                />
             </div>
         );
     }

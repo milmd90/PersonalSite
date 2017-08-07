@@ -28,6 +28,11 @@ a {
 
 img {
     height: 200px;
+
+    &.center {
+        margin: auto;
+        display: block;
+    }
 }
 
 div {
@@ -41,21 +46,27 @@ div {
 .ib {
     display: inline-block;
      &.ib-2 {
+        height: auto;
         width: 16.666666%
     }
     &.ib-3 {
+       height: auto;
        width: 25%
-   }
+    }
     &.ib-4 {
+        height: auto;
         width: 33.333333%
     }
     &.ib-6 {
+        height: auto;
         width: 50%
     }
     &.ib-8 {
+        height: auto;
         width: 66.666666%
     }
     &.ib-9 {
+        height: auto;
         width: 75%
     }
 }

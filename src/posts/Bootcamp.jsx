@@ -1,0 +1,37 @@
+import React, { Component } from 'react';
+import PostHeader from '../components/PostHeader';
+
+class Bootcamp extends Component {
+    render() {
+        return (
+            <div className={this.props.theme +' post'}>
+                <PostHeader title="SMU Bootcamp"
+                            link={this.props.link}
+                            created="6 August 2017"
+                />
+                <div className="post-body">
+                    <div className="ib ib-4">
+                        <img className="center" src="/img/smu/smulogo.png" alt="smu"/>
+                    </div>
+                    <div className="ib ib-8">
+                        <p>
+                            I just got accepted as an instructor for the Full Stack coding bootcamp at SMU!
+                        </p>
+                        <p>
+                            The course is 6 months long and covers: HTML5, CSS3, JavaScript, jQuery, Node.js,
+                            Java, Express.js, React.js, Database Theory, Bookshelf.js, MongoDB, MySQL,
+                            Command Line, Git, and more!
+                        </p>
+                        <p>
+                            To learn more about this opportunity, check out the
+                            bootcamp website
+                            <a className='hover-bold' href='https://codingbootcamp.smu.edu/'> HERE</a>.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        )
+    }
+};
+
+export default Bootcamp;
