@@ -23,7 +23,7 @@ class Presentation extends Component {
                         <p>
                             My presentation slides are available for download
                             <a className="show-link" target="_blank"
-                                href="https://drive.google.com/file/d/0B9M8gvCUnx5_UWNSTkRzZy00Sjg/view?usp=sharing"> HERE</a>.
+                                href="https://drive.google.com/file/d/0B9M8gvCUnx5_UWNSTkRzZy00Sjg/view?usp=sharing"> here</a>.
                         </p>
                     </div>
                     <div className="ib ib-4">
