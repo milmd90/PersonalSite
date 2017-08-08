@@ -8,7 +8,7 @@ class Personal extends Component {
         return (
             <div className="page">
                 <Bootcamp
-                    theme="bkg-pink"
+                    theme="bkg-lavender"
                 />
                 <Design
                     theme="bkg-green"

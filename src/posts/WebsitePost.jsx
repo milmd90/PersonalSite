@@ -26,7 +26,8 @@ class WebsitePost extends Component {
                         <p>
                             This site is a Node.js application, using React, and hosted on Heroku. I use Git for my version control
                             and the code is open to view on
-                            <a className='hover-bold' href='https://github.com/milmd90/PersonalSite'> my GitHub page</a>.
+                            <a className='show-link' target="_blank"
+                                href='https://github.com/milmd90/PersonalSite'> my GitHub page</a>.
                         </p>
                     </div>
                     <div>

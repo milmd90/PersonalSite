@@ -19,7 +19,8 @@ class PingHeroku extends Component {
                     </p>
                     <p>
                         A quick search got me to
-                        <a href="https://stackoverflow.com/questions/2606190/why-are-my-basic-heroku-apps-taking-two-seconds-to-load"> this </a>
+                        <a className="show-link" target="_blank"
+                            href="https://stackoverflow.com/questions/2606190/why-are-my-basic-heroku-apps-taking-two-seconds-to-load"> this </a>
                         StackOverflow post which explained the problem.
                         To trick Heroku into keeping my app in memory, I dusted off my old Raspberry Pi and wrote a script to ping my site URL.
                         This has brought the inital load time back to sub-second.

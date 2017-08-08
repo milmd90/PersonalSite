@@ -15,11 +15,15 @@ class Presentation extends Component {
                             I gave a presentation on the fundamentals of machine learning.
                             The material was borrowed heavily from the MOOC course "Learning from Data" taught at
                             CalTech by Professor Yaser Abu-Mostafa. I highly recommend taking this course though either
-                            <a href="https://work.caltech.edu/telecourse.html"> CalTech</a> or <a href="https://www.edx.org/"> edx</a>.
+                            <a className="show-link" target="_blank"
+                                href="https://work.caltech.edu/telecourse.html"> CalTech</a> or
+                            <a className="show-link" target="_blank"
+                                href="https://www.edx.org/"> edx</a>.
                         </p>
                         <p>
                             My presentation slides are available for download
-                            <a href="https://drive.google.com/file/d/0B9M8gvCUnx5_UWNSTkRzZy00Sjg/view?usp=sharing"> HERE</a>.
+                            <a className="show-link" target="_blank"
+                                href="https://drive.google.com/file/d/0B9M8gvCUnx5_UWNSTkRzZy00Sjg/view?usp=sharing"> HERE</a>.
                         </p>
                     </div>
                     <div className="ib ib-4">

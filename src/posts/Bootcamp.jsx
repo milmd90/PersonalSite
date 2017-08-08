@@ -25,7 +25,8 @@ class Bootcamp extends Component {
                         <p>
                             To learn more about this opportunity, check out the
                             bootcamp website
-                            <a className='hover-bold' href='https://codingbootcamp.smu.edu/'> HERE</a>.
+                            <a className='show-link' target="_blank"
+                                href='https://codingbootcamp.smu.edu/'> here</a>.
                         </p>
                     </div>
                 </div>

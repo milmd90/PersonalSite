@@ -1,9 +1,10 @@
 /* Variables */
 $my-grey: rgba(174, 199, 188, 1);
-$my-pink: rgba(213, 187, 177, 1);
 $my-orange: rgba(250, 192, 94, 1);
 $my-green: rgba(120, 192, 145, 1);
 $my-blue: rgba(95, 159, 185, 1);
+$my-lavender: #6d7993;
+$my-dusty: #96858F;
 
 /* General elements */
 * {
@@ -23,7 +24,10 @@ h1, h2, h3, h4, h5, h6 {
 
 a {
     text-decoration: none;
-    color: var(--my-orange);
+
+    &.show-link {
+        color: $my-orange;
+    }
 }
 
 img {
@@ -75,8 +79,8 @@ div {
     background-color: $my-grey;
 }
 
-.bkg-pink {
-    background-color: $my-pink;
+.bkg-lavender {
+    background-color: $my-lavender;
 }
 
 .bkg-orange {

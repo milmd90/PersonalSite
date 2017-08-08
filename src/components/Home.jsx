@@ -10,7 +10,8 @@ class Home extends Component {
                              I am a Full Stack web developer working at OrderMyGear in Dallas. <br/>
                              I also enjoy playing guitar and eating sandwiches. <br/>
                              This website is a work in progress. Feel free to view the source code on
-                             <a className="hover-bold" href="https://github.com/milmd90/PersonalSite"> GitHub</a>.
+                             <a className="show-link" target="_blank"
+                                 href="https://github.com/milmd90/PersonalSite"> GitHub</a>.
                          </p>
                      </div>
                  </div>

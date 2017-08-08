@@ -15,7 +15,8 @@ class CreatureFeatures extends Component {
                     </div>
                     <div className="ib ib-8">
                         <p>
-                            <a href="https://soundcloud.com/creature-features-448133117" target="_blank">Here </a>
+                            <a className="show-link" target="_blank"
+                                href="https://soundcloud.com/creature-features-448133117">Here </a>
                             are three tracks I recorded with my friend, David Bergen, under the name Creature Features.
                         </p>
                     </div>
