@@ -4,15 +4,10 @@ $my-green: rgba(120, 192, 145, 1);
 $my-blue: rgba(95, 159, 185, 1);
 $my-lavender: #6d7993;
 $my-dusty: #96858F;
-$my-light-grey: #aaa;
-$my-dark-grey: #888;
+$my-grey: #aaa;
 
-.bkg-light-grey {
-    background-color: $my-light-grey;
-}
-
-.bkg-dark-grey {
-    background-color: $my-dark-grey;
+.bkg-grey {
+    background-color: $my-grey;
 }
 
 .bkg-orange {
