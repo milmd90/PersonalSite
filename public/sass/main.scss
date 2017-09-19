@@ -1,10 +1,30 @@
 /* Variables */
-$my-grey: rgba(174, 199, 188, 1);
 $my-orange: rgba(250, 192, 94, 1);
 $my-green: rgba(120, 192, 145, 1);
 $my-blue: rgba(95, 159, 185, 1);
 $my-lavender: #6d7993;
 $my-dusty: #96858F;
+$my-grey: #aaa;
+
+.bkg-grey {
+    background-color: $my-grey;
+}
+
+.bkg-orange {
+    background-color: $my-orange;
+}
+
+.bkg-green {
+    background-color: $my-green;
+}
+
+.bkg-blue {
+    background-color: $my-blue;
+}
+
+.bkg-lavender {
+    background-color: $my-lavender;
+}
 
 /* General elements */
 * {
@@ -75,27 +95,6 @@ div {
     }
 }
 
-.bkg-grey {
-    background-color: $my-grey;
-}
-
-.bkg-lavender {
-    background-color: $my-lavender;
-}
-
-.bkg-orange {
-    background-color: $my-orange;
-}
-
-.bkg-green {
-    background-color: $my-green;
-}
-
-.bkg-blue {
-    background-color: $my-blue;
-}
-
-
 /* Header and Titles */
 .header {
     text-align: center;
@@ -126,7 +125,6 @@ div {
         position: fixed;
         height: 84px;
         width: 100%;
-        background: inherit;
     }
     .buffer {
         padding-top: 290px;
@@ -135,6 +133,10 @@ div {
 .footer{
     text-align: center;
     padding: 25px;
+    .fa {
+        margin: 10px;
+        font-size: 30px;
+    }
 }
 
 .page-title {
@@ -211,7 +213,7 @@ div {
             .subsection {
                 padding-bottom: 25px;
 
-                .header {
+                .info-header {
                     text-align: left;
 
                     .item {

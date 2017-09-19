@@ -11,7 +11,7 @@ class Header extends Component {
         this.scroll_max = 150;
         this.logo_max = 200;
         this.logo_min = 80;
-        this.header_width = 750;
+        this.width = 600;
 
         this.center = $(window).width() / 2;
         this.scroll = $(document).scrollTop();
@@ -43,7 +43,7 @@ class Header extends Component {
         });
 
         this.$links.css({
-            right: (this.center - this.header_width/2) * (1 - transition) + 'px',
+            right: (this.center - this.width/2) * (1 - transition) + 'px',
         });
     }
 
@@ -52,9 +52,6 @@ class Header extends Component {
             <div className="header">
                 <div className="mask"></div>
                 <div className="header-links">
-                    <div className="header-link">
-                        <IndexLink to="/">HOME</IndexLink>
-                    </div>
                     <div className="header-link">
                         <Link to="/resume">RESUME</Link>
                     </div>
@@ -69,7 +66,7 @@ class Header extends Component {
                     </div>
                 </div>
                 <div className="logo">
-                    <img src="/img/logo/logo_black.png" alt="MDM"/>
+                    <IndexLink to="/"><img src="/img/logo/logo_black.png" alt="MDM"/></IndexLink>
                 </div>
                 <div className="buffer"></div>
             </div>
