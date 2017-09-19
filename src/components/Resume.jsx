@@ -11,26 +11,27 @@ class Resume extends Component {
                         </div>
                         <div className="content">
                             <div className="subsection">
-                                <div className="header">
+                                <div className="info-header">
                                     <div className="item">
                                         OrderMyGear
                                     </div>
                                     <div className="date">
                                         01/17 - Present
                                     </div>
-                                    <ul className="info">
-                                        <li className="subheader">Software Developer</li>
-                                        <li>Wrote automated Jenkins task to query database and resolve Stripe transactions in invalid states</li>
-                                        <li>Restructured Stripe processing sequence to allow charge and refund idempotency</li>
-                                        <li>Updated user interface to use Stripe V3 Elements for dynamic validation and improved security</li>
-                                        <li>Added additional app metrics and monitors to improve Datadog alerting</li>
-                                        <li>Created a Slack App and GCP Pub/Sub to post tagged application logs to Slack channel</li>
-                                        <li>Delivered roundtable presentation on machine learning and potential company applications</li>
-                                    </ul>
                                 </div>
+                                <ul className="info">
+                                    <li className="subheader">Software Developer</li>
+                                    <li>Wrote automated Jenkins task to query database and resolve Stripe transactions in invalid states</li>
+                                    <li>Restructured Stripe processing sequence to allow charge and refund idempotency</li>
+                                    <li>Updated user interface to use Stripe V3 Elements for dynamic validation and improved security</li>
+                                    <li>Added additional app metrics and monitors to improve Datadog alerting</li>
+                                    <li>Created a Slack App and GCP Pub/Sub to post tagged application logs to Slack channel</li>
+                                    <li>Delivered roundtable presentation on machine learning and potential company applications</li>
+                                </ul>
                             </div>
+
                             <div className="subsection">
-                                <div className="header">
+                                <div className="info-header">
                                     <div className="item">
                                         Graphiq
                                     </div>
@@ -47,8 +48,9 @@ class Resume extends Component {
                                     <li>Designed and built an internal RESTful API that allowed Graphiq employees to rapidly make updates to thousands of visualizations</li>
                                 </ul>
                             </div>
+
                             <div className="subsection">
-                                <div className="header">
+                                <div className="info-header">
                                     <div className="item">
                                         ECS Federal
                                     </div>
@@ -68,13 +70,14 @@ class Resume extends Component {
                             </div>
                         </div>
                     </div>
+
                     <div className="section">
                         <div className="title">
                             EDUCATION
                         </div>
                         <div className="content">
                             <div className="subsection">
-                                <div className="header">
+                                <div className="info-header">
                                     <div className="item">
                                         Rhodes College
                                     </div>
@@ -107,7 +110,7 @@ class Resume extends Component {
                         </div>
                         <div className="content">
                             <div className="subsection">
-                                <div className="header">
+                                <div className="info-header">
                                     <div className="item">
                                         Stanford Machine Learning Certificate
                                     </div>
@@ -120,7 +123,7 @@ class Resume extends Component {
                                 </div>
                             </div>
                             <div className="subsection">
-                                <div className="header">
+                                <div className="info-header">
                                     <div className="item">
                                         AWS Certified Developer - Associate
                                     </div>
@@ -140,7 +143,7 @@ class Resume extends Component {
                         </div>
                         <div className="content">
                             <div className="subsection">
-                                <div className="header">
+                                <div className="info-header">
                                     <div className="item">
                                         North Carolina State University
                                     </div>
@@ -158,7 +161,7 @@ class Resume extends Component {
                                 </div>
                             </div>
                             <div className="subsection">
-                                <div className="header">
+                                <div className="info-header">
                                     <div className="item">
                                         NCSU Robotics Club
                                     </div>
@@ -171,7 +174,7 @@ class Resume extends Component {
                                 </div>
                             </div>
                             <div className="subsection">
-                                <div className="header">
+                                <div className="info-header">
                                     <div className="item">
                                         Physics Instructor
                                     </div>
@@ -201,7 +204,7 @@ class Resume extends Component {
                         </div>
                         <div className="content">
                             <div className="subsection">
-                                <div className="header">
+                                <div className="info-header">
                                     <div className="item">
                                         North Carolina State Researcher
                                     </div>
@@ -214,7 +217,7 @@ class Resume extends Component {
                                 </div>
                             </div>
                             <div className="subsection">
-                                <div className="header">
+                                <div className="info-header">
                                     <div className="item">
                                         Rhodes College Research Assistant
                                     </div>
