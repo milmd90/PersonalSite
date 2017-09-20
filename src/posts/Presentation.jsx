@@ -4,7 +4,7 @@ import PostHeader from '../components/PostHeader';
 class Presentation extends Component {
     render() {
         return (
-            <div className={this.props.theme +' post'}>
+            <div className='post post-color'>
                 <PostHeader title="Machine Learning Presentation"
                             link={this.props.link}
                             created="21 July 2017"

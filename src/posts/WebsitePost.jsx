@@ -7,7 +7,7 @@ class WebsitePost extends Component {
         var commentSection = this.props.link ? '' : <CommentSection post="WebsitePost"/>;
 
         return (
-            <div className={this.props.theme +' post'}>
+            <div className='post post-color'>
                 <PostHeader title="Creating a Website"
                             link={this.props.link}
                             created="10 April 2017"

@@ -4,7 +4,7 @@ import PostHeader from '../components/PostHeader';
 class Bootcamp extends Component {
     render() {
         return (
-            <div className={this.props.theme +' post'}>
+            <div className='post post-color'>
                 <PostHeader title="SMU Bootcamp"
                             link={this.props.link}
                             created="6 August 2017"

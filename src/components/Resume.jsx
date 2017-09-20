@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 class Resume extends Component {
     render() {
         return (
-            <div className={this.props.theme +' post'}>
+            <div className='post'>
                 <div className="post-body resume">
                     <div className="section">
                         <div className="title">

@@ -3,7 +3,6 @@ $my-orange: rgba(250, 192, 94, 1);
 $my-green: rgba(120, 192, 145, 1);
 $my-blue: rgba(95, 159, 185, 1);
 $my-lavender: #6d7993;
-$my-dusty: #96858F;
 $my-grey: #aaa;
 
 .bkg-grey {
@@ -35,7 +34,7 @@ $my-grey: #aaa;
 
 body {
     margin: 0;
-    background: #aaa;
+    background-color: $my-grey;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -168,6 +167,18 @@ div {
             margin-left: 50px;
             margin-right: 50px;
         }
+    }
+}
+
+.post-color {
+    &:nth-child(3n+1) {
+      background-color: $my-blue;
+    }
+    &:nth-child(3n+2) {
+      background-color: $my-green;
+    }
+    &:nth-child(3n+3) {
+      background-color: $my-lavender;
     }
 }
 

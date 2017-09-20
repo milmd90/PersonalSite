@@ -4,7 +4,7 @@ import PostHeader from '../components/PostHeader';
 class PingHeroku extends Component {
     render() {
         return (
-            <div className={this.props.theme +' post'}>
+            <div className='post post-color'>
                 <PostHeader title="Pinging Heroku"
                             link={this.props.link}
                             created="8 August 2017"

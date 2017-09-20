@@ -7,15 +7,9 @@ class Personal extends Component {
     render() {
         return (
             <div className="page">
-                <Bootcamp
-                    theme="bkg-lavender"
-                />
-                <Design
-                    theme="bkg-green"
-                />
-                <CreatureFeatures
-                    theme="bkg-blue"
-                />
+                <Bootcamp />
+                <Design />
+                <CreatureFeatures />
             </div>
         );
     }

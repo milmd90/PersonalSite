@@ -4,7 +4,7 @@ import PostHeader from '../components/PostHeader';
 class CreatureFeatures extends Component {
     render() {
         return (
-            <div className={this.props.theme +' post'}>
+            <div className='post post-color'>
                 <PostHeader title="Creature Features"
                             link={this.props.link}
                             created="22 April 2017"

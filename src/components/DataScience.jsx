@@ -6,7 +6,6 @@ class DataScience extends Component {
         return (
             <div className="page">
                 <Presentation
-                    theme="bkg-green"
                     link="/posts/presentation"
                 />
             </div>

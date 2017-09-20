@@ -7,11 +7,9 @@ class Software extends Component {
         return (
             <div className="page">
                 <PingHeroku
-                    theme="bkg-green"
                     link="/posts/pingheroku"
                 />
                 <WebsitePost
-                    theme="bkg-blue"
                     link="/posts/website"
                 />
             </div>

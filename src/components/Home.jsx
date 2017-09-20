@@ -4,7 +4,7 @@ class Home extends Component {
     render() {
         return (
             <div className="page">
-                <div className={this.props.theme +' post'}>
+                <div className='post'>
                     <div className="post-body">
                         <p className="center">
                              I am a Full Stack web developer working at OrderMyGear in Dallas. <br/>
