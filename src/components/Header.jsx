@@ -7,6 +7,7 @@ class Header extends Component {
         this.$logo_div = $('.logo');
         this.$logo = $('.logo img');
         this.$links = $('.header-links');
+        this.$map = $('.logomap');
 
         this.scroll_max = 150;
         this.logo_max = 200;
@@ -42,6 +43,9 @@ class Header extends Component {
             height: size + 'px',
         });
 
+        var mapData = [size/2, size/2, .9*size/2];
+        this.$map.attr("coords", mapData.join(', '));
+
         this.$links.css({
             right: (this.center - this.width/2) * (1 - transition) + 'px',
         });
@@ -66,7 +70,12 @@ class Header extends Component {
                     </div>
                 </div>
                 <div className="logo">
-                    <IndexLink to="/"><img src="/img/logo/logo_black.png" alt="MDM"/></IndexLink>
+                    <img src="/img/logo/logo_black.png" alt="MDM" useMap="#logomap"/>
+                    <IndexLink to="/">
+                        <map name="logomap">
+                          <area className="logomap" shape="circle" coords="100,100,100" />
+                        </map>
+                    </IndexLink>
                 </div>
                 <div className="buffer"></div>
             </div>
