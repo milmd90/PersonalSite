@@ -18,16 +18,26 @@ import Presentation from '../posts/Presentation';
 import PingHeroku from '../posts/PingHeroku';
 
 class App extends Component {
+    scroll(page) {
+        return () => {
+            // TODO clean up magic number 206
+            // 206 comes from inital header height 290 - final header height 84
+            var y = page === "top" ? 0 : 206;
+            // setTimeout used bc browser has not loaded the full page before action finishes
+            setTimeout(function() {window.scrollTo(0, y);},1);
+        }
+    }
+
     render() {
         return (
             <div>
                 <Router history={browserHistory}>
                     <Route path="/" component={Base}>
-                        <IndexRoute component={Home}/>
-                        <Route path="resume" component={Resume}/>
-                        <Route path="software" component={Software}/>
-                        <Route path="datascience" component={DataScience}/>
-                        <Route path="personal" component={Personal}/>
+                        <IndexRoute onEnter={this.scroll("top")} component={Home}/>
+                        <Route onEnter={this.scroll()} path="resume" component={Resume}/>
+                        <Route onEnter={this.scroll()} path="software" component={Software}/>
+                        <Route onEnter={this.scroll()} path="datascience" component={DataScience}/>
+                        <Route onEnter={this.scroll()} path="personal" component={Personal}/>
                     </Route>
                     <Route path="/posts/pingheroku" component={PingHeroku}/>
                     <Route path="/posts/website" component={WebsitePost}/>
