@@ -12,13 +12,14 @@ class Design extends Component {
                 <div className="post-body">
                     <div className="ib ib-6">
                         <p>
-                            I've started learning graphic design by making a personal logos for my friends.
+                            I've started practicing graphic design by making personal logos for my friends.
+                            Here are a few designs I created using Acorn.
                         </p>
                     </div>
                     <div className="ib ib-6">
-                        <img className="ib ib-4" src="/img/logo/logo_black.png" alt="matt"/>
                         <img className="ib ib-4" src="/img/logo/tanner.png" alt="tanner"/>
                         <img className="ib ib-4" src="/img/logo/rikeen.png" alt="rikeen"/>
+                        <img className="ib ib-4" src="/img/logo/TPG.png" alt="Texas Plays Guitar"/>
                     </div>
                 </div>
             </div>
