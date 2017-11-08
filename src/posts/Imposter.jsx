@@ -5,19 +5,19 @@ class Imposter extends Component {
     render() {
         return (
             <div className='post post-color'>
-                <PostHeader title="Everything Besides Code"
+                <PostHeader title="Stop! Imposter!"
                             link={this.props.link}
                             created="3 November 2017"
                 />
-                <div className="post-body">
-                    <div className="ib ib-4">
+                <div className="div-nest">
+                    <div>
                     	<div className="quote">
 	                        A professional is just an amature who gets paid. <br/>
 							- Matthew Miller
 						</div>
                     </div>
 
-                    <div className="ib ib-8">
+                    <div>
                         <p>
                             I remember cowering in a cubicle at my first job. 
                             I was nervous to start coding, not because I wasn’t excited for a challenge, but because I wasn’t sure if I would be able to meet expectations. 
@@ -33,7 +33,7 @@ class Imposter extends Component {
                         </p>
                     </div>
 
-                    <div className="ib ib-12">
+                    <div>
                         <p>
                             This feeling of not being qualified or competent is commonly called Imposter Syndrome. 
                             While not unique to software engineering, 
@@ -50,7 +50,7 @@ class Imposter extends Component {
                         </p>
                     </div>
 
-                    <div className="ib ib-12">
+                    <div>
                         <p>
 	                        Having been a programmer for several years now, I can see that I knew much more than I realized when I was first employed as a developer. 
 	                        Furthermore, many of the important things I didn’t know had very little to do with the technical aspects of coding. 
@@ -60,128 +60,169 @@ class Imposter extends Component {
 	                    </p>
                     </div>
 
-					<div className="ib ib-4">
+					<div>
                 		<div className="quote">
-							People think that computer science is the art of geniuses but the actual reality is the opposite, just many people doing things that build on each other, like a wall of mini stones. 
+							People think that computer science is the art of geniuses but the actual reality is the opposite, just many people doing things that build on each other, like a wall of mini stones.  <br/>
 							- Donald Knuth
 						</div>
 					</div>
 
-					<div className="ib ib-8">
+					<div>
                         <p>
-							Before I try to explain what makes a good engineer, I think it is helpful to examine the “genius programmer” archetype. A popular trope in TV and movies, the genius programmer is a moody lone wolf, up all night in front a computer screen. He has a perfect mental framework of even the most obscure technologies and creates complex programs few others can decipher. While this behavior might be mysterious and captivating, it is not what makes a good programmer. Not only are these traits impractical, many of them are detrimental. 
+							Before I try to explain what makes a good engineer, I think it is helpful to examine the “genius programmer” archetype. 
+							A popular trope in TV and movies, the genius programmer is a moody lone wolf, up all night in front a computer screen. 
+							He has a perfect mental framework of even the most obscure technologies and creates complex programs few others can decipher. 
+							While this behavior might be mysterious and captivating, it is not what makes a good programmer. Not only are these traits impractical, many of them are detrimental. 
 						</p>
 					</div>
 
-					<div className="ib ib-4">
+					<div>
                 		<div className="quote">
-							Science is a way of thinking much more than it is a body of knowledge. 
+							Science is a way of thinking much more than it is a body of knowledge.  <br/>
 							- Carl Sagan
 						</div>
 
                     	<div className="quote">
-							Never memorize something that you can look up. 
+							Never memorize something that you can look up.  <br/>
 							- Albert Einstein
 						</div>
 					</div>
 
-					<div className="ib ib-8">
+					<div>
                         <p>
-							Writing software is not a test of what you know. There are no bonus points for keeping everything in your head at once. Best of all, when you forget something, you are already at your computer to Google the answer. In technical interviews, it is fairly common for employers to allow developers to use Google for the code challenges. This is because Google and StackOverflow are a critical part of how professional programmers solve problems in the real world. Of course at some point, looking up everything online will become both frustrating and time consuming. Thankfully, our brains are pretty good at passively absorbing information they frequently use. Occasionally, there are some syntax rules or terminal commands that I use infrequently enough to forget but frequently enough to get annoyed looking them up. For these facts, I keep a small notebook on my desk. 
+							Writing software is not a test of what you know. 
+							There are no bonus points for keeping everything in your head at once. 
+							Best of all, when you forget something, you are already at your computer to Google the answer. 
+							In technical interviews, it is fairly common for employers to allow developers to use Google for the code challenges. 
+							This is because Google and StackOverflow are a critical part of how professional programmers solve problems in the real world. 
+							Of course at some point, looking up everything online will become both frustrating and time consuming. 
+							Thankfully, our brains are pretty good at passively absorbing information they frequently use. 
+							Occasionally, there are some syntax rules or terminal commands that I use infrequently enough to forget but frequently enough to get annoyed looking them up. 
+							For these facts, I keep a small notebook on my desk. 
 						</p>
 					</div>
 
-					<div className="ib ib-4">
+					<div>
                 		<div className="quote">
-							Programs must be written for people to read, and only incidentally for machines to execute. 
+							Programs must be written for people to read, and only incidentally for machines to execute.  <br/>
 							- Harold Abelson
 						</div>
 
                     	<div className="quote">
-							Controlling complexity is the essence of computer programming. 
+							Controlling complexity is the essence of computer programming.  <br/>
 							- Brian Kernighan
 						</div>
 					</div>
 
-					<div className="ib ib-8">
+					<div>
                         <p>
-							In practice, code is read not only by the original writer, but whole teams of developers. Additionally, code is must be maintained and modified over time. This means that there is an overhead associated with understanding how programs work. A program that is written in a clever, complex way, might save the computer a few seconds of execution time. However, when another developer has to modify that code, the additional time to understand the logic might be days.
+							In practice, code is read not only by the original writer, but whole teams of developers. 
+							Additionally, code is must be maintained and modified over time. This means that there is an overhead associated with understanding how programs work. 
+							A program that is written in a clever, complex way, might save the computer a few seconds of execution time. 
+							However, when another developer has to modify that code, the additional time to understand the logic might be days.
 						</p>
 					</div>
 
-					<div className="ib ib-4">
+					<div>
                 		<div className="quote">
-							We should forget about small efficiencies, say about 97% of the time: premature optimization is the root of all evil. 
+							We should forget about small efficiencies, say about 97% of the time: premature optimization is the root of all evil.  <br/>
 							- C.A.R. Hoare, quoted by Donald Knuth
 						</div>
 
                     	<div className="quote">
-							Everyone knows that debugging is twice as hard as writing a program in the first place. So if you are as clever as you can be when you write it, how will you ever debug it? 
+							Everyone knows that debugging is twice as hard as writing a program in the first place. 
+							So if you are as clever as you can be when you write it, how will you ever debug it?  <br/>
 							- Brian Kernighan
 						</div>
 					</div>
 
-					<div className="ib ib-8">
+					<div>
                         <p>
-							Many programmers like to compete in “golf code”. The goal of golf code is to write a program that performs a specific function in as few characters as possible. This is done for fun and not for production code. However, some programmers seem to let this perspective bleed over into their regular work. On the other end of the spectrum, there is what I refer to as “monkey code”. The term refers to the Infinite Monkey Theorem, that given infinite monkeys and infinite time, the monkeys would inevitably write the entire works of Shakespeare. That said, monkey code is when a programmer writes code seemly at random and stops when the program works. Avoiding unnecessary complexity is not a “get out of thinking free” card. Writing simple elegant code is challenging and takes time. The key is to recognize when you get into the realm of diminishing returns. If the time you spend optimizing your code is not going to save developer time maintaining the code in the future, then it is time to move on.
+							Many programmers like to compete in “golf code”. 
+							The goal of golf code is to write a program that performs a specific function in as few characters as possible. 
+							This is done for fun and not for production code. However, some programmers seem to let this perspective bleed over into their regular work. 
+							On the other end of the spectrum, there is what I refer to as “monkey code”. 
+							The term refers to the Infinite Monkey Theorem, that given infinite monkeys and infinite time, the monkeys would inevitably write the entire works of Shakespeare. 
+							That said, monkey code is when a programmer writes code seemly at random and stops when the program works. 
+							Avoiding unnecessary complexity is not a “get out of thinking free” card. 
+							Writing simple elegant code is challenging and takes time. The key is to recognize when you get into the realm of diminishing returns. 
+							If the time you spend optimizing your code is not going to save developer time maintaining the code in the future, then it is time to move on.
 						</p>
 
 						<p>
-							Hopefully now, it should be clear that being a stereotypical hacker is not synonymous with being a good developer. However, that still leaves the question, “What does a good programmer look like?” Fortunately there are a slew of books, blogs, and videos that cover every aspect of development from code structure to team workflow. (My personal favorite is The Effective Engineer by Edmond Lau.) Since this topic has already been thoroughly covered elsewhere, I will not attempt to describe a cohesive ideology for what makes a good engineer. Instead, I will simply make a few points I wish I had taken to heart when I first started writing code.
+							Hopefully now, it should be clear that being a stereotypical hacker is not synonymous with being a good developer. 
+							However, that still leaves the question, “What does a good programmer look like?” 
+							Fortunately there are a slew of books, blogs, and videos that cover every aspect of development from code structure to team workflow. 
+							(My personal favorite is The Effective Engineer by Edmond Lau.) 
+							Since this topic has already been thoroughly covered elsewhere, I will not attempt to describe a cohesive ideology for what makes a good engineer. 
+							Instead, I will simply make a few points I wish I had taken to heart when I first started writing code.
 						</p>
 					</div>
 
-					<div className="ib ib-4">
+					<div>
                 		<div className="quote">
-							A person who never made a mistake never tried anything new. 
+							A person who never made a mistake never tried anything new.  <br/>
 							- Albert Einstein
 						</div>
 
                 		<div className="quote">
-							Move fast and break things. Unless you are breaking stuff, you are not moving fast enough. 
+							Move fast and break things. Unless you are breaking stuff, you are not moving fast enough.  <br/>
 							- Mark Zuckerberg
 						</div>
-
                 		<div className="quote">
-							There's a silly notion that failure's not an option at NASA. Failure is an option here. If things are not failing, you are not innovating enough. 
+							There's a silly notion that failure's not an option at NASA. 
+							Failure is an option here. If things are not failing, you are not innovating enough.  <br/>
 							- Elon Musk
 						</div>
 					</div>
 
-					<div className="ib ib-8">
+					<div>
                         <p>
-							First of all, don’t be afraid to make mistakes. Learning to program is just as much about learning how to fix bugs as it is about learning how programs are supposed to work. From this perspective, breaking your code is not an interruption from progress, but an essential part of learning.
+							First of all, don’t be afraid to make mistakes. 
+							Learning to program is just as much about learning how to fix bugs as it is about learning how programs are supposed to work. 
+							From this perspective, breaking your code is not an interruption from progress, but an essential part of learning.
 						</p>
 					</div>
 
-					<div className="ib ib-4">
+					<div>
                 		<div className="quote">
-							It's not that I'm so smart, it's just that I stay with problems longer. 
+							It's not that I'm so smart, it's just that I stay with problems longer.  <br/>
 							- Albert Einstein
 						</div>
 					</div>
 
-					<div className="ib ib-8">
+					<div>
                         <p>
-							Don’t let yourself become overwhelmed with all of the things you don’t know. It is easy to feel paralyzed by this information overload. Especially in the beginning it can seem like for every new thing you learn you are still just as confused. Unfortunately, there is no magic shortcut. The only thing you can do is learn a bit at a time. Like being lost in the woods, if you keep walking in one direction, eventually you will find your way out. 
+							Don’t let yourself become overwhelmed with all of the things you don’t know. 
+							It is easy to feel paralyzed by this information overload. 
+							Especially in the beginning it can seem like for every new thing you learn you are still just as confused. 
+							fortunately, there is no magic shortcut. The only thing you can do is learn a bit at a time. 
+							Like being lost in the woods, if you keep walking in one direction, eventually you will find your way out. 
 						</p>
 					</div>
 
-					<div className="ib ib-4">
+					<div>
                     	<div className="quote">
-							Practice isn't the thing you do once you're good. It's the thing you do that makes you good.  
+							Practice isn't the thing you do once you're good. 
+							It's the thing you do that makes you good.   <br/>
 							- Malcolm Gladwell
 						</div>
 
                 		<div className="quote">
-							Intellectual growth should commence at birth and cease only at death. 
+							Intellectual growth should commence at birth and cease only at death. <br/> 
 							- Albert Einstein
 						</div>
 					</div>
 
-					<div className="ib ib-8">
+					<div>
 						<p>
-							Finally, the most effective technique I know to become a better programmer, is to keep programming. Consider how doctors describe their work. After medical school, doctors do not perform medicine, they practice medicine. This is because, even after years of training, they are still learning and improving their skills. Programming is much the same way. You will never know all of the details, and as you program you will make mistakes and encounter uncertainty. While it is not always pleasant, this is the key to improving. While you might already be writing code for classes or work, I strongly recommend starting a side project. Find something you are interested in and explore it.
+							Finally, the most effective technique I know to become a better programmer, is to keep programming. 
+							Consider how doctors describe their work. After medical school, doctors do not perform medicine, they practice medicine. 
+							This is because, even after years of training, they are still learning and improving their skills. Programming is much the same way. 
+							You will never know all of the details, and as you program you will make mistakes and encounter uncertainty. 
+							While it is not always pleasant, this is the key to improving. 
+							While you might already be writing code for classes or work, I strongly recommend starting a side project. 
+							ind something you are interested in and explore it.
 						</p>
                     </div>
                 </div>

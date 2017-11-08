@@ -9,7 +9,7 @@ class CreatureFeatures extends Component {
                             link={this.props.link}
                             created="22 April 2017"
                 />
-                <div className="post-body">
+                <div className="div-nest">
                     <div className="ib ib-4">
                         <img className="center" src="/img/music/creaturefeatures.jpg" alt="creature features"/>
                     </div>

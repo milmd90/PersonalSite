@@ -66,6 +66,30 @@ div {
     text-align: center;
 }
 
+.flex-center {
+    display: grid; //flex
+    align-items: center;
+}
+
+.div-nest {
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.grid-wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+}
+
+.grid-wide {
+    grid-column-end: span 2;
+}
+
+.grid-full {
+    grid-column-end: span 3;
+}
+
 .ib {
     display: inline-block;
      &.ib-2 {
@@ -92,6 +116,12 @@ div {
         height: auto;
         width: 75%
     }
+}
+
+.quote {
+    padding: 0;
+    margin: 0;
+    text-align: center;
 }
 
 /* Header and Titles */
@@ -156,17 +186,9 @@ div {
             float: right;
         }
     }
-    .post-body {
-        padding: 20px;
 
-        .subsection {
-            padding-left: 20px;
-        }
-
-        p, ul {
-            margin-left: 50px;
-            margin-right: 50px;
-        }
+    .subsection {
+        margin-left: -20px;
     }
 }
 

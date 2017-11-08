@@ -9,7 +9,7 @@ class Presentation extends Component {
                             link={this.props.link}
                             created="21 July 2017"
                 />
-                <div className="post-body">
+                <div className="div-nest">
                     <div className="ib ib-8">
                         <p>
                             I gave a presentation on the fundamentals of machine learning.

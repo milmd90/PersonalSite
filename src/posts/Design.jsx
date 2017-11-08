@@ -9,7 +9,7 @@ class Design extends Component {
                             link={this.props.link}
                             created="23 April 2017"
                 />
-                <div className="post-body">
+                <div className="div-nest">
                     <div className="ib ib-6">
                         <p>
                             I've started practicing graphic design by making personal logos for my friends.

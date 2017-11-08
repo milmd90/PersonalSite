@@ -9,7 +9,7 @@ class Bootcamp extends Component {
                             link={this.props.link}
                             created="6 August 2017"
                 />
-                <div className="post-body">
+                <div className="div-nest">
                     <div className="ib ib-4">
                         <img className="center" src="/img/smu/smulogo.png" alt="smu"/>
                     </div>

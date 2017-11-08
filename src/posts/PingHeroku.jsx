@@ -9,7 +9,7 @@ class PingHeroku extends Component {
                             link={this.props.link}
                             created="8 August 2017"
                 />
-                <div className="post-body">
+                <div className="div-nest">
                     <p>
                         I realized after creating this site that sometimes the initial page load took a very long time.
                         At first I thought that was because loading the JavaScript bundle was taking a long time.
