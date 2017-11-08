@@ -9,11 +9,11 @@ class Bootcamp extends Component {
                             link={this.props.link}
                             created="6 August 2017"
                 />
-                <div className="div-nest">
-                    <div className="ib ib-4">
+                <div className="grid-wrapper div-nest">
+                    <div className="grid-4">
                         <img className="center" src="/img/smu/smulogo.png" alt="smu"/>
                     </div>
-                    <div className="ib ib-8">
+                    <div className="grid-8">
                         <p>
                             I just got accepted as an instructor for the Full Stack coding bootcamp at SMU!
                         </p>

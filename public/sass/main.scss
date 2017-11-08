@@ -50,7 +50,7 @@ a {
 }
 
 img {
-    height: 200px;
+    max-width: 200px;
 
     &.center {
         margin: auto;
@@ -78,17 +78,31 @@ div {
 
 .grid-wrapper {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(12, 1fr);
     grid-gap: 10px;
+
+    img {
+        width: 100%;
+        height: auto;
+    }
+
+    .grid-4 {
+        grid-column-end: span 4;
+    }
+
+    .grid-6 {
+        grid-column-end: span 6;
+    }
+
+    .grid-8 {
+        grid-column-end: span 8;
+    }
+
+    .grid-12 {
+        grid-column-end: span 12;
+    }
 }
 
-.grid-wide {
-    grid-column-end: span 2;
-}
-
-.grid-full {
-    grid-column-end: span 3;
-}
 
 .ib {
     display: inline-block;
