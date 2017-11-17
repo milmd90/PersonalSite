@@ -16,6 +16,7 @@ import Personal from './Personal';
 import WebsitePost from '../posts/WebsitePost';
 import Presentation from '../posts/Presentation';
 import PingHeroku from '../posts/PingHeroku';
+import Imposter from '../posts/Imposter';
 
 class App extends Component {
     scroll(page) {
@@ -40,6 +41,7 @@ class App extends Component {
                         <Route onEnter={this.scroll()} path="personal" component={Personal}/>
                     </Route>
                     <Route path="/posts/pingheroku" component={PingHeroku}/>
+                    <Route path="/posts/imposter" component={Imposter}/>
                     <Route path="/posts/website" component={WebsitePost}/>
                     <Route path="/posts/presentation" component={Presentation}/>
                     <Route path="*" component={ErrorPage}/>

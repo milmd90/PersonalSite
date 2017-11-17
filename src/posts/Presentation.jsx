@@ -9,8 +9,8 @@ class Presentation extends Component {
                             link={this.props.link}
                             created="21 July 2017"
                 />
-                <div className="post-body">
-                    <div className="ib ib-8">
+                <div className="grid-wrapper div-nest">
+                    <div className="grid-8">
                         <p>
                             I gave a presentation on the fundamentals of machine learning.
                             The material was borrowed heavily from the MOOC course "Learning from Data" taught at
@@ -26,7 +26,7 @@ class Presentation extends Component {
                                 href="https://drive.google.com/file/d/0B9M8gvCUnx5_UWNSTkRzZy00Sjg/view?usp=sharing"> here</a>.
                         </p>
                     </div>
-                    <div className="ib ib-4">
+                    <div className="grid-4">
                         <img className="center" src="/img/datascience/learningfromdata.jpg"/>
                     </div>
                 </div>

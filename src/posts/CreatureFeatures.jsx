@@ -9,11 +9,11 @@ class CreatureFeatures extends Component {
                             link={this.props.link}
                             created="22 April 2017"
                 />
-                <div className="post-body">
-                    <div className="ib ib-4">
+                <div className="grid-wrapper div-nest">
+                    <div className="grid-4">
                         <img className="center" src="/img/music/creaturefeatures.jpg" alt="creature features"/>
                     </div>
-                    <div className="ib ib-8">
+                    <div className="grid-8">
                         <p>
                             <a className="show-link" target="_blank"
                                 href="https://soundcloud.com/creature-features-448133117">Here </a>
