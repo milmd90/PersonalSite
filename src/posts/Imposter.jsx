@@ -19,19 +19,45 @@ class Imposter extends Component {
 
                     <div>
                         <p>
-                            I remember cowering in a cubicle at my first job. I was nervous to start coding, not because I wasn’t excited for a challenge, but because I wasn’t sure if I would be able to meet expectations. I was part of a two person team with a senior developer. While discussing how to approach the project, the senior developer regularly asked for my opinion. I would give my opinion punctuated with some variation of, “But I’m not sure” or “Do you think that’s right?”. At some point I asked my coworker if he could review some JavaScript I had written. Not surprisingly, I followed up my request by adding, “I’m still a JavaScript amateur.” My coworker then reminded me, that I had been hired in part to write JavaScript. By definition, I was not an amateur. I was a professional software developer. While I had very little experience compared to my peers, I was trusted by my employer to make software. I was not there to be perfect; I was there to do my job.
+                            I remember cowering in a cubicle at my first job.
+                            I was nervous to start coding, not because I wasn’t excited for a challenge, but because I wasn’t sure if I would be able to meet expectations.
+                            I was part of a two person team with a senior developer.
+                            While discussing how to approach the project, the senior developer regularly asked for my opinion.
+                            I would give my opinion punctuated with some variation of, “But I’m not sure” or “Do you think that’s right?”.
+                            At some point I asked my coworker if he could review some JavaScript I had written.
+                            Not surprisingly, I followed up my request by adding, “I’m still a JavaScript amateur.”
+                            My coworker then reminded me, that I had been hired in part to write JavaScript. By definition, I was not an amateur.
+                            I was a professional software developer.
+                            While I had very little experience compared to my peers, I was trusted by my employer to make software.
+                            I was not there to be perfect; I was there to do my job.
                         </p>
                     </div>
 
                     <div>
                         <p>
-                            This feeling of not being qualified or competent is commonly called imposter syndrome. While not unique to software engineering, I think programmers are especially susceptible for a few reasons. First, software is one of the few technical fields that does not require a related degree. According to the 2017 StackOverflow survey almost half of professional programmers do not have an undergraduate degree in computer science or software engineering. Second, due to the sheer volume of information encompassed by software engineering, even a competent programmer is likely to be ignorant of many basic principles in their field. Third, developers don’t see the process of trial and error other developers go through to create working code. It is easy to presume that that is what our own code should look like on the first try. In reality, good code is almost never written in a first pass. It often takes multiple revisions and peer reviews even for excellent programmers. Finally, software culture is full of tech jargon, acronyms, and  buzzwords. While the concepts these words describe are often not conceptually complicated, unfamiliar words can make developers feel inept.
+                            This feeling of not being qualified or competent is commonly called imposter syndrome.
+                            While not unique to software engineering, I think programmers are especially susceptible for a few reasons.
+                            First, software is one of the few technical fields that does not require a related degree.
+                            According to the 2017 StackOverflow survey almost half of professional programmers do not have an undergraduate degree in computer science or software engineering.
+                            Second, due to the sheer volume of information encompassed by software engineering, even a competent programmer is likely to be ignorant of many basic principles in their field.
+                            Third, developers don’t see the process of trial and error other developers go through to create working code.
+                            It is easy to presume that that is what our own code should look like on the first try.
+                            In reality, good code is almost never written in a first pass. It often takes multiple revisions and peer reviews even for excellent programmers.
+                            Finally, software culture is full of tech jargon, acronyms, and  buzzwords.
+                            While the concepts these words describe are often not conceptually complicated, unfamiliar words can make developers feel inept.
                         </p>
                     </div>
 
                     <div>
                         <p>
-                            At the heart of my imposter syndrome was the fact there was a daunting amount of technical knowledge that I had yet to master. My fear used that fact to convince me that I was not a real developer; I was merely passing as one. While it’s true that technical knowledge is helpful for computer programming, there are plenty of other necessary skills. My goal is to outline a few of the key non-technical habits of good engineers. I do so for two main reasons. First, by leveraging these habits, engineers can quickly improve their effectiveness. Second, by recognizing the invaluable engineering skills you already possess you can combat the doubt of imposter syndrome.
+                            At the heart of my imposter syndrome was the fact there was a daunting amount of technical knowledge that I had yet to master.
+                            My fear used that fact to convince me that I was not a real developer;
+                            I was merely passing as one.
+                            While it’s true that technical knowledge is helpful for computer programming, there are plenty of other necessary skills.
+                            My goal is to outline a few of the key non-technical habits of good engineers.
+                            I do so for two main reasons.
+                            First, by leveraging these habits, engineers can quickly improve their effectiveness.
+                            Second, by recognizing the invaluable engineering skills you already possess you can combat the doubt of imposter syndrome.
 	                    </p>
                     </div>
 
@@ -44,7 +70,11 @@ class Imposter extends Component {
 
 					<div>
                         <p>
-                            Before I try to explain what makes a good engineer, I think it is helpful to examine the “genius programmer” archetype. A popular trope in TV and movies, the genius programmer is a moody lone wolf, up all night in front a computer screen. He has a perfect mental framework of even the most obscure technologies and creates complex programs few others can decipher. While this behavior might be mysterious and captivating, it is not what makes a good programmer. Not only are these traits impractical, many of them are detrimental.
+                            Before I try to explain what makes a good engineer, I think it is helpful to examine the “genius programmer” archetype.
+                            A popular trope in TV and movies, the genius programmer is a moody lone wolf, up all night in front a computer screen.
+                            He has a perfect mental framework of even the most obscure technologies and creates complex programs few others can decipher.
+                            While this behavior might be mysterious and captivating, it is not what makes a good programmer.
+                            Not only are these traits impractical, many of them are detrimental.
 						</p>
 					</div>
 
@@ -62,7 +92,15 @@ class Imposter extends Component {
 
 					<div>
                         <p>
-                            Writing software is not a test of what you know. There are no bonus points for keeping everything in your head at once. Best of all, when you forget something, you are already at your computer to Google the answer. In technical interviews, it is fairly common for employers to allow developers to use Google for the code challenges. This is because Google and StackOverflow are a critical part of how professional programmers solve problems in the real world. Of course at some point, looking up everything online will become both frustrating and time consuming. Thankfully, our brains are pretty good at passively absorbing information they frequently use. Occasionally, there are some syntax rules or terminal commands that I use infrequently enough to forget but frequently enough to get annoyed looking them up. For these facts, I keep a small notebook on my desk.
+                            Writing software is not a test of what you know.
+                            There are no bonus points for keeping everything in your head at once.
+                            Best of all, when you forget something, you are already at your computer to Google the answer.
+                            In technical interviews, it is fairly common for employers to allow developers to use Google for the code challenges.
+                            This is because Google and StackOverflow are a critical part of how professional programmers solve problems in the real world.
+                            Of course at some point, looking up everything online will become both frustrating and time consuming.
+                            Thankfully, our brains are pretty good at passively absorbing information they frequently use.
+                            Occasionally, there are some syntax rules or terminal commands that I use infrequently enough to forget but frequently enough to get annoyed looking them up.
+                            For these facts, I keep a small notebook on my desk.
 						</p>
 					</div>
 
@@ -80,7 +118,11 @@ class Imposter extends Component {
 
 					<div>
                         <p>
-                            In practice, code is read not only by the original writer, but whole teams of developers. Additionally, code must be maintained and modified over time. This means that there is an overhead associated with understanding how programs work. A program that is written in a clever, complex way, might save the computer a few seconds of execution time. However, when another developer has to modify that code, the additional time to understand the logic might be days.
+                            In practice, code is read not only by the original writer, but whole teams of developers.
+                            Additionally, code must be maintained and modified over time.
+                            This means that there is an overhead associated with understanding how programs work.
+                            A program that is written in a clever, complex way, might save the computer a few seconds of execution time.
+                            However, when another developer has to modify that code, the additional time to understand the logic might be days.
 						</p>
 					</div>
 
@@ -91,18 +133,33 @@ class Imposter extends Component {
 						</div>
 
                     	<div className="quote">
-                            Everyone knows that debugging is twice as hard as writing a program in the first place. So if you are as clever as you can be when you write it, how will you ever debug it?  <br/>
+                            Everyone knows that debugging is twice as hard as writing a program in the first place.
+                            So if you are as clever as you can be when you write it, how will you ever debug it?  <br/>
                             - Brian Kernighan
 						</div>
 					</div>
 
 					<div>
                         <p>
-                            Many programmers like to compete in “code golf”. The goal of code golf is to write a program that performs a specific function in as few characters as possible. This is done for fun and not for production code. However, some programmers seem to let this perspective bleed over into their regular work. On the other end of the spectrum, there is what I refer to as “monkey code”. The term refers to the Infinite Monkey Theorem, that given infinite monkeys and infinite time, the monkeys would inevitably write the entire works of Shakespeare. That said, monkey code is when a programmer writes code seemly at random and stops when the program works. Avoiding unnecessary complexity is not a “get out of thinking free” card. Writing simple elegant code is challenging and takes time. The key is to recognize when you get into the realm of diminishing returns. If the time you spend optimizing your code is not going to save developer time maintaining the code in the future, then it is time to move on.
+                            Many programmers like to compete in “code golf”.
+                            The goal of code golf is to write a program that performs a specific function in as few characters as possible.
+                            This is done for fun and not for production code.
+                            However, some programmers seem to let this perspective bleed over into their regular work.
+                            On the other end of the spectrum, there is what I refer to as “monkey code”.
+                            The term refers to the Infinite Monkey Theorem, that given infinite monkeys and infinite time, the monkeys would inevitably write the entire works of Shakespeare.
+                            That said, monkey code is when a programmer writes code seemly at random and stops when the program works.
+                            Avoiding unnecessary complexity is not a “get out of thinking free” card. Writing simple elegant code is challenging and takes time.
+                            The key is to recognize when you get into the realm of diminishing returns.
+                            If the time you spend optimizing your code is not going to save developer time maintaining the code in the future, then it is time to move on.
 						</p>
 
 						<p>
-                            Hopefully now, it should be clear that being a stereotypical hacker is not synonymous with being a good developer. However, that still leaves the question, “What does a good programmer look like?” Fortunately there are a slew of books, blogs, and videos that cover every aspect of development from code structure to team workflow. (My personal favorite is The Effective Engineer by Edmond Lau.) Since this topic has already been thoroughly covered elsewhere, I will not attempt to describe a cohesive ideology for what makes a good engineer. Instead, I will simply make a few points I wish I had taken to heart when I first started writing code.
+                            Hopefully now, it should be clear that being a stereotypical hacker is not synonymous with being a good developer.
+                            However, that still leaves the question, “What does a good programmer look like?”
+                            Fortunately there are a slew of books, blogs, and videos that cover every aspect of development from code structure to team workflow.
+                            (My personal favorite is The Effective Engineer by Edmond Lau.)
+                            Since this topic has already been thoroughly covered elsewhere, I will not attempt to describe a cohesive ideology for what makes a good engineer.
+                            Instead, I will simply make a few points I wish I had taken to heart when I first started writing code.
 						</p>
 					</div>
 
@@ -125,7 +182,9 @@ class Imposter extends Component {
 
 					<div>
                         <p>
-                            First of all, don’t be afraid to make mistakes. Learning to program is just as much about learning how to fix bugs as it is about learning how programs are supposed to work. From this perspective, breaking your code is not an interruption from progress, but an essential part of learning.
+                            First of all, don’t be afraid to make mistakes.
+                            Learning to program is just as much about learning how to fix bugs as it is about learning how programs are supposed to work.
+                            From this perspective, breaking your code is not an interruption from progress, but an essential part of learning.
 
 						</p>
 					</div>
@@ -139,7 +198,11 @@ class Imposter extends Component {
 
 					<div>
                         <p>
-                            Don’t let yourself become overwhelmed with all of the things you don’t know. It is easy to feel paralyzed by this information overload. Especially in the beginning it can seem like for every new thing you learn you are still just as confused. Unfortunately, there is no magic shortcut. The only thing you can do is learn a bit at a time. Like being lost in the woods, if you keep walking in one direction, eventually you will find your way out.
+                            Don’t let yourself become overwhelmed with all of the things you don’t know.
+                            It is easy to feel paralyzed by this information overload.
+                            Especially in the beginning it can seem like for every new thing you learn you are still just as confused.
+                            Unfortunately, there is no magic shortcut. The only thing you can do is learn a bit at a time.
+                            Like being lost in the woods, if you keep walking in one direction, eventually you will find your way out.
 
 						</p>
 					</div>
@@ -159,7 +222,15 @@ class Imposter extends Component {
 
 					<div>
 						<p>
-                            Finally, the most effective technique I know to become a better programmer, is to keep programming. Consider how doctors describe their work. After medical school, doctors do not perform medicine, they practice medicine. This is because, even after years of training, they are still learning and improving their skills. Programming is much the same way. You will never know all of the details, and as you program you will make mistakes and encounter uncertainty. While it is not always pleasant, this is the key to improving. While you might already be writing code for classes or work, I strongly recommend starting a side project. Find something you are interested in and explore it.
+                            Finally, the most effective technique I know to become a better programmer, is to keep programming.
+                            Consider how doctors describe their work.
+                            After medical school, doctors do not perform medicine, they practice medicine.
+                            This is because, even after years of training, they are still learning and improving their skills.
+                            Programming is much the same way.
+                            You will never know all of the details, and as you program you will make mistakes and encounter uncertainty.
+                            While it is not always pleasant, this is the key to improving.
+                            While you might already be writing code for classes or work, I strongly recommend starting a side project.
+                            Find something you are interested in and explore it.
 						</p>
                     </div>
 
@@ -171,7 +242,15 @@ class Imposter extends Component {
                     </div>
 					<div>
 						<p>
-                            Recently I have had the good fortune to take a teaching position at a full stack bootcamp. I wish to share two personal observations from my experience. First, taking the time put into as few words as possible how some technology works is a great exercise. Surprisingly, it is often the simplest concepts that are the hardest to articulate. This fact is commonly acknowledged and not specific to software or computer science. Nonetheless, I believe it deserves repeating. Second, seeing new developers struggle with learning the basics has reminded me of where I was not too long ago. While it is easy to enumerate all the things we wish we better understood, it is hard to conceptualize the multitude of facts and skills we have developed in our lifetime. When you find yourself feeling that you aren’t progressing as quickly as you’d like, take a moment to reflect on how far you’ve come.
+                            Recently I have had the good fortune to take a teaching position at a full stack bootcamp.
+                            I wish to share two personal observations from my experience.
+                            First, taking the time put into as few words as possible how some technology works is a great exercise.
+                            Surprisingly, it is often the simplest concepts that are the hardest to articulate.
+                            This fact is commonly acknowledged and not specific to software or computer science.
+                            Nonetheless, I believe it deserves repeating.
+                            Second, seeing new developers struggle with learning the basics has reminded me of where I was not too long ago.
+                            While it is easy to enumerate all the things we wish we better understood, it is hard to conceptualize the multitude of facts and skills we have developed in our lifetime.
+                            When you find yourself feeling that you aren’t progressing as quickly as you’d like, take a moment to reflect on how far you’ve come.
 						</p>
                     </div>
                 </div>
