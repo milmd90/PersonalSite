@@ -7,7 +7,7 @@ class Imposter extends Component {
             <div className='post post-color'>
                 <PostHeader title="Halt! Imposter!"
                             link={this.props.link}
-                            created="18 November 2017"
+                            created="17 November 2017"
                 />
                 <div className="div-nest">
                     <div>
