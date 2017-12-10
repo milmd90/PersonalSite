@@ -14,6 +14,22 @@ class Resume extends Component {
                                 <div className="subsection">
                                     <div className="info-header">
                                         <div className="item">
+                                            Trilogy Education Services
+                                        </div>
+                                        <div className="date">
+                                            10/17 - Present
+                                        </div>
+                                    </div>
+                                    <ul className="info">
+                                        <li className="subheader">Fullstack Bootcamp Instructor, SMU</li>
+                                        <li>Taught fullstack material including HTML5, CSS3, JavaScript, jQuery, Node.js, Express.js, React.js, 
+                                        Bookshelf.js, Java, Database Theory, Firebase, MongoDB, MySQL, Command Line, and Git</li>
+                                    </ul>
+                                </div>
+
+                                <div className="subsection">
+                                    <div className="info-header">
+                                        <div className="item">
                                             OrderMyGear
                                         </div>
                                         <div className="date">
@@ -21,7 +37,8 @@ class Resume extends Component {
                                         </div>
                                     </div>
                                     <ul className="info">
-                                        <li className="subheader">Software Developer</li>
+                                        <li className="subheader">Software Developer, Payment Processing Team</li>
+                                        <li>Developed payment microservice in Go used across multiple internal applications</li> 
                                         <li>Wrote automated Jenkins task to query database and resolve Stripe transactions in invalid states</li>
                                         <li>Restructured Stripe processing sequence to allow charge and refund idempotency</li>
                                         <li>Updated user interface to use Stripe V3 Elements for dynamic validation and improved security</li>
@@ -64,7 +81,6 @@ class Resume extends Component {
                                         <li>Full stack developer on web application for interacting with National Address Database</li>
                                         <li>Lead designer of UI for application using Javascript, HTML, and CSS</li>
                                         <li>Developed back end model of application using Java</li>
-                                        <li>Expanded functionality and improved performance of existing applications</li>
                                         <li>Used Oracle SQL to interact with databases from web application</li>
                                         <li>Connected Java code to C library through Java Native Access (JNA)</li>
                                     </ul>
@@ -110,6 +126,19 @@ class Resume extends Component {
                                 CERTIFICATIONS
                             </div>
                             <div className="content">
+                                <div className="subsection">
+                                    <div className="info-header">
+                                        <div className="item">
+                                            Caltech Learning from Data Certificate
+                                        </div>
+                                        <div className="date">
+                                            10/17
+                                        </div>
+                                    </div>
+                                    <div className="info">
+                                        edX Course Certificate, License 0aa88675433542e1bfd74228dc12bd04
+                                    </div>
+                                </div>
                                 <div className="subsection">
                                     <div className="info-header">
                                         <div className="item">
