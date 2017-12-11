@@ -132,7 +132,7 @@ class Resume extends Component {
                                             Caltech Learning from Data Certificate
                                         </div>
                                         <div className="date">
-                                            10/17
+                                            12/17
                                         </div>
                                     </div>
                                     <div className="info">
