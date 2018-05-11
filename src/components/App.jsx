@@ -11,6 +11,7 @@ import Resume from './Resume';
 import Software from './Software';
 import DataScience from './DataScience';
 import Personal from './Personal';
+import Login from './Login';
 
 //Posts
 import WebsitePost from '../posts/WebsitePost';
@@ -39,6 +40,7 @@ class App extends Component {
                         <Route onEnter={this.scroll()} path="software" component={Software}/>
                         <Route onEnter={this.scroll()} path="datascience" component={DataScience}/>
                         <Route onEnter={this.scroll()} path="personal" component={Personal}/>
+                        <Route onEnter={this.scroll()} path="login" component={Login}/>
                     </Route>
                     <Route path="/posts/pingheroku" component={PingHeroku}/>
                     <Route path="/posts/imposter" component={Imposter}/>

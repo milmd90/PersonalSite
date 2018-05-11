@@ -8,3 +8,4 @@ npm-debug.log
 *.css
 .DS_Store
 .env
+firebase.json

@@ -68,6 +68,9 @@ class Header extends Component {
                     <div className="header-link">
                         <Link to="/personal">PERSONAL</Link>
                     </div>
+                    <div className="header-link">
+                        <Link to="/login">Login</Link>
+                    </div>
                 </div>
                 <div className="logo">
                     <img src="/img/logo/logo_black.png" alt="MDM" useMap="#logomap"/>
